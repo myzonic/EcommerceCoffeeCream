@@ -236,7 +236,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             {/* Elegant Main Image frame */}
             <div className="relative rounded-[32px] overflow-hidden shadow-2xl border-4 border-brand-pearl bg-brand-beige aspect-[4/5] md:aspect-[3/4]">
               <img
-                src="/src/assets/images/hero_coffee_dawn_1781457367197.jpg"
+                src="/assets/images/hero_coffee_dawn_1781457367197.jpg"
                 alt="SweetNaomiRae's Dawn Coffee Extraction"
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"

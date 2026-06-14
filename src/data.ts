@@ -25,7 +25,7 @@ export const PRODUCTS: Product[] = [
       { name: 'Organic Roasting Code', value: 'Slow double carbon-monitored', icon: 'Flame' },
       { name: 'Athletic Adaptogens', value: 'Subtle clean recovery profiles', icon: 'Zap' }
     ],
-    image: '/src/assets/images/pops_coffee_bag_1781457387033.jpg',
+    image: '/assets/images/pops_coffee_bag_1781457387033.jpg',
     category: 'coffee',
     badge: 'Flagship Roast',
     hotspots: [
@@ -70,7 +70,7 @@ export const PRODUCTS: Product[] = [
       'Metallic Champagne Gold Trim Accents',
       'Highly Breathable Athletic Knit'
     ],
-    image: '/src/assets/images/merchandise_kit_1781457430354.jpg',
+    image: '/assets/images/merchandise_kit_1781457430354.jpg',
     category: 'apparel',
     badge: 'Pre-Release Drop'
   },
@@ -88,7 +88,7 @@ export const PRODUCTS: Product[] = [
       'High-contrast Reflective Gold Branding',
       'Adjustable Magnetic Crown Enclosure'
     ],
-    image: '/src/assets/images/athletic_run_cap_1781458182440.jpg',
+    image: '/assets/images/athletic_run_cap_1781458182440.jpg',
     category: 'apparel',
     badge: 'Athletic Drop'
   },
@@ -124,7 +124,7 @@ export const PRODUCTS: Product[] = [
       'Scratch-resistant Powder-coated Polish',
       'Perfect for Iced Coffee & Post-Run Shakes'
     ],
-    image: '/src/assets/images/thermal_sport_shaker_1781458205534.jpg',
+    image: '/assets/images/thermal_sport_shaker_1781458205534.jpg',
     category: 'gear',
     badge: 'Pro Performance'
   },
@@ -142,7 +142,7 @@ export const PRODUCTS: Product[] = [
       'Stashable Pack-Away Hood Implementation',
       'Reflective Safety Slogan Prints'
     ],
-    image: '/src/assets/images/sport_windbreaker_1781458465773.jpg',
+    image: '/assets/images/sport_windbreaker_1781458465773.jpg',
     category: 'apparel',
     badge: 'Limited Drop'
   },
@@ -160,7 +160,7 @@ export const PRODUCTS: Product[] = [
       'Moisture-Wicking Fast Dry-Shield Fabric',
       'Matte Black & Raw Sand Contrast Theme'
     ],
-    image: '/src/assets/images/aerotech_shorts_1781458491774.jpg',
+    image: '/assets/images/aerotech_shorts_1781458491774.jpg',
     category: 'apparel',
     badge: 'Athletic Drop'
   },
@@ -178,7 +178,7 @@ export const PRODUCTS: Product[] = [
       'Indestructible Gold Zipper Fastenings',
       'Ergonomic High-Comfort Shoulder Strap'
     ],
-    image: '/src/assets/images/legend_duffle_bag_1781458513453.jpg',
+    image: '/assets/images/legend_duffle_bag_1781458513453.jpg',
     category: 'gear',
     badge: 'Elite Carry'
   },
@@ -196,7 +196,7 @@ export const PRODUCTS: Product[] = [
       'Antimicrobial Silver-Weave Infusion',
       'Subtle Emerald and Black Accents'
     ],
-    image: '/src/assets/images/training_tee_1781458534604.jpg',
+    image: '/assets/images/training_tee_1781458534604.jpg',
     category: 'apparel',
     badge: 'Pro Performance'
   }

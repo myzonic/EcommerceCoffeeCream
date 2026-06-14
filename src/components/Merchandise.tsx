@@ -215,7 +215,7 @@ export default function Merchandise({ products, onAddToCart }: MerchandiseProps)
         >
           <div className="absolute inset-0 opacity-10 pointer-events-none">
             <img
-              src="/src/assets/images/athletic_morning_1781457409042.jpg"
+              src="/assets/images/athletic_morning_1781457409042.jpg"
               alt="Misty runner backdrop"
               className="w-full h-full object-cover filter grayscale"
               referrerPolicy="no-referrer"

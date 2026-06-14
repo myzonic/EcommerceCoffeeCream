@@ -143,7 +143,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
                 <div className="border-t border-brand-gold/10 pt-6">
                   <div className="flex items-center space-x-4">
                     <img
-                      src="/src/assets/images/athletic_morning_1781457409042.jpg"
+                      src="/assets/images/athletic_morning_1781457409042.jpg"
                       alt="Morning ritual preview"
                       className="w-16 h-16 rounded-xl object-cover border border-brand-gold/20 flex-shrink-0"
                       referrerPolicy="no-referrer"
