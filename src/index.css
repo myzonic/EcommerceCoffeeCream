@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-emerald: #065F46;
+  --color-brand-emerald-light: #0d8262;
+  --color-brand-emerald-dark: #044331;
+  --color-brand-gold: #D4AF37;
+  --color-brand-gold-light: #F3D97F;
+  --color-brand-cream: #F5F2ED;
+  --color-brand-pearl: #ffffff;
+  --color-brand-beige: #E8E4DD;
+  --color-brand-sand: #D9D2C5;
+  --color-brand-charcoal: #1A1A1A;
+  --color-brand-charcoal-light: #2A2A2A;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-cream);
+    color: var(--color-brand-charcoal);
+    font-family: var(--font-sans);
+  }
+
+  /* Custom glassmorphism and subtle high-end styles */
+  .glass {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  }
+
+  .glass-panel {
+    background: rgba(245, 242, 237, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(217, 210, 197, 0.5);
+  }
+
+  .glass-panel-dark {
+    background: rgba(26, 26, 26, 0.85);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(212, 175, 55, 0.2);
+  }
+
+  .emerald-glow {
+    box-shadow: 0 0 20px rgba(6, 95, 70, 0.15);
+  }
+
+  .gold-border {
+    border-image: linear-gradient(to bottom, #D4AF37, #B8860B) 1;
+  }
+
+  .text-stroke-gold {
+    -webkit-text-stroke: 1px var(--color-brand-gold);
+    color: transparent;
+  }
+}
+
+/* Custom scrollbars and refined animations */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-brand-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-sand);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-gold);
+}

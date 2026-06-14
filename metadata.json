@@ -1,0 +1,6 @@
+{
+  "name": "SweetNaomiRae’s Coffee & More",
+  "description": "A premium high-end custom built ecommerce experience for SweetNaomiRae’s Coffee & More, designed as a cinematic luxury lifestyle brand built around coffee, ambition, athletic performance, and personal growth.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
