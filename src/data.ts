@@ -338,106 +338,55 @@ export const PRODUCTS: Product[] = [
     badge: 'The Naomi Rae Collection'
   },
   {
-    id: 'legend-hoodie',
-    name: 'Legend Hoodie',
-    subtitle: 'OTM – Out The Mud Signature Drop',
+    id: 'otm-hoodie',
+    name: 'OTM (Out The Mud) Hoodie',
+    subtitle: 'OTM – Out The Mud',
     price: 85,
     rating: 5.0,
     reviewsCount: 94,
-    description: 'An oversized, exceptionally structured athletic drop crafted from 450GSM double-brushed organic cotton. Embellished with signature gold branding and emerald crest.',
+    description: 'A heavyweight streetwear hoodie from the OTM – Out The Mud collection. Built from 450GSM double-brushed organic cotton with signature gold branding and emerald crest. Engineered for those who built everything from nothing.',
     benefits: [
       '450GSM Ultra-Heavy French Terry',
       'Asymmetrical Box Cut Style Finish',
       'Metallic Champagne Gold Trim Accents',
-      'Highly Breathable Athletic Knit'
+      'OTM – Out The Mud Collection'
     ],
     category: 'apparel',
-    badge: 'OTM Signature Drop'
+    badge: 'OTM – Out The Mud'
   },
   {
-    id: 'apex-training-tee',
-    name: 'Apex Training Tee',
-    subtitle: 'OTM – Out The Mud Signature Drop',
-    price: 38,
+    id: 'otm-tee',
+    name: 'OTM (Out The Mud) T-Shirt',
+    subtitle: 'OTM – Out The Mud',
+    price: 34,
     rating: 5.0,
     reviewsCount: 210,
-    description: 'Crafted with next-generation seamless micro-knit fabric designed to respond dynamically to heat and high-intensity workout output. Moves with you, dries instantly.',
+    description: 'A premium heavyweight tee from the OTM – Out The Mud collection. Crafted from ringspun cotton with a relaxed athletic fit and signature gold branding. Built for those who rise before the sun.',
     benefits: [
-      'Optimal Thermal Mapping Ventilation',
-      'Zero Friction Chafing Seams Design',
-      'Antimicrobial Silver-Weave Infusion',
-      'Subtle Emerald and Black Accents'
+      'Premium Ringspun Cotton Construction',
+      'Relaxed Athletic Fit Design',
+      'Signature Gold Branding',
+      'OTM – Out The Mud Collection'
     ],
     category: 'apparel',
-    badge: 'OTM Signature Drop'
+    badge: 'OTM – Out The Mud'
   },
   {
-    id: 'elite-run-cap',
-    name: 'Elite Run Cap',
-    subtitle: 'OTM – Out The Mud Signature Drop',
-    price: 32,
-    rating: 4.9,
-    reviewsCount: 68,
-    description: 'An elite running cap optimized for high-temperature cardiovascular regimes. Water-shedding aerodynamic nylon with ventilation mesh channels and antimicrobial headband.',
+    id: 'otm-triblend',
+    name: 'OTM (Out The Mud) Tri-Blend T-Shirt',
+    subtitle: 'OTM – Out The Mud',
+    price: 38,
+    rating: 5.0,
+    reviewsCount: 180,
+    description: 'An ultra-soft tri-blend tee from the OTM – Out The Mud collection. Breathable athletic fit with signature branding. Designed for training, recovery, and everyday wear.',
     benefits: [
-      'Aerodynamic Laser-Cut Ventilation Ports',
-      'Waterproof Ripstop Stretch Nylon Shell',
-      'High-contrast Reflective Gold Branding',
-      'Adjustable Magnetic Crown Enclosure'
+      'Ultra-Soft Tri-Blend Fabric',
+      'Breathable Athletic Fit',
+      'Signature OTM Branding',
+      'OTM – Out The Mud Collection'
     ],
     category: 'apparel',
-    badge: 'OTM Signature Drop'
-  },
-  {
-    id: 'elite-windbreaker',
-    name: 'Elite Run Windbreaker',
-    subtitle: 'OTM – Out The Mud Signature Drop',
-    price: 110,
-    rating: 4.9,
-    reviewsCount: 82,
-    description: 'Exceptionally lightweight windbreaker jacket for unpredictable weather. Dynamic water-repellent performance fabric with ventilation heat-escapes and headphone routing.',
-    benefits: [
-      'Tactical Champagne Gold Minimalist Trims',
-      'Wind-Shedding Ultra-Stretch Composition',
-      'Stashable Pack-Away Hood Implementation',
-      'Reflective Safety Slogan Prints'
-    ],
-    category: 'apparel',
-    badge: 'OTM Signature Drop'
-  },
-  {
-    id: 'aerotech-shorts',
-    name: 'AeroTech Shorts',
-    subtitle: 'OTM – Out The Mud Signature Drop',
-    price: 48,
-    rating: 4.8,
-    reviewsCount: 95,
-    description: 'Designed for heavy training loads. Seamless internal compression layer with ultra-lightweight water-repellent stretch fabric. Anti-chafe, fast-dry, and secure.',
-    benefits: [
-      'Anti-Chafing Active Compression Liner',
-      'Secure Zippered Key & Card Back Slots',
-      'Moisture-Wicking Fast Dry-Shield Fabric',
-      'Matte Black & Raw Sand Contrast Theme'
-    ],
-    category: 'apparel',
-    badge: 'OTM Signature Drop'
-  },
-  {
-    id: 'legend-duffle',
-    name: 'Legend Duffle Bag',
-    subtitle: 'OTM – Out The Mud Signature Drop',
-    price: 95,
-    rating: 4.9,
-    reviewsCount: 130,
-    description: 'The ultimate carry companion pairing early dawn workouts with late-night executive sessions. Heavy-duty water-resistant ballistic nylon with custom gold hardware.',
-    benefits: [
-      'Separate Wet/Dry Vent Compartment',
-      'Laptop & Tech Guard Neoprene Sleeve',
-      'Indestructible Gold Zipper Fastenings',
-      'Ergonomic High-Comfort Shoulder Strap'
-    ],
-    category: 'gear',
-    badge: 'OTM Signature Drop'
+    badge: 'OTM – Out The Mud'
   },
   {
     id: 'pops-430',

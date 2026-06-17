@@ -8,7 +8,7 @@ interface SignatureCollectionProps {
   onAddToCart: (product: Product, quantity: number, options?: { size?: string }) => void;
 }
 
-const OTM_IDS = ['legend-hoodie', 'apex-training-tee', 'elite-run-cap', 'elite-windbreaker', 'aerotech-shorts', 'legend-duffle'];
+const OTM_IDS = ['otm-hoodie', 'otm-tee', 'otm-triblend'];
 
 export default function SignatureCollection({ products, onAddToCart }: SignatureCollectionProps) {
   const otmItems = products.filter(p => OTM_IDS.includes(p.id));
