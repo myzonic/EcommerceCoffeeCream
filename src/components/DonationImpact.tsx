@@ -48,7 +48,7 @@ export default function DonationImpact({ milestones }: DonationImpactProps) {
             <span className="text-brand-emerald">Expanding Human Frontiers</span>
           </h2>
           <p className="font-sans text-brand-charcoal/70 text-sm md:text-base leading-relaxed">
-            At SweetNaomiRae’s and V.H.H.C., we believe success is empty if it does not empower others. We allocate exactly 10% of all signature package revenue directly to building physical fitness systems for underprivileged youths and empowering bio-dynamic farming families.
+            At SweetNaomiRae’s, we believe success is empty if it does not empower others. We allocate exactly 10% of all signature package revenue directly to building physical fitness systems for underprivileged youths and empowering bio-dynamic farming families.
           </p>
         </motion.div>
 
@@ -85,9 +85,6 @@ export default function DonationImpact({ milestones }: DonationImpactProps) {
                       }`}>
                         {m.id.includes('youth') ? <Heart className="w-4.5 h-4.5" /> : <Sprout className="w-4.5 h-4.5" />}
                       </div>
-                      <span className="font-mono font-bold text-xs text-brand-gold">
-                        {m.percentage}% Completed
-                      </span>
                     </div>
 
                     <h3 className="font-display font-semibold text-sm sm:text-base text-brand-charcoal leading-tight">

@@ -63,7 +63,7 @@ export default function Newsletter() {
                     Claim Priority Allocation
                   </h2>
                   <p className="font-sans text-brand-sand/65 text-xs sm:text-sm max-w-lg mx-auto leading-relaxed">
-                    Our micro-lot coffee bags and performance gear drops are produced in heavily restricted quotas. Subscribe to receive immediate allocations, early-club notifications, and exclusive V.H.H.C. mentoring keys.
+                    Our micro-lot coffee bags and performance gear drops are produced in heavily restricted quotas. Subscribe to receive immediate allocations, early-club notifications, and exclusive mentoring keys.
                   </p>
                 </div>
 

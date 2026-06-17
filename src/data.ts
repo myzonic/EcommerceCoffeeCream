@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'legend-hoodie',
-    name: 'V.H.H.C. Legend Hoodie',
+    name: 'Legend Hoodie',
     subtitle: 'Heavyweight Asymmetrical Streetwear',
     price: 85,
     rating: 5.0,
@@ -76,7 +76,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'athletic-run-cap',
-    name: 'V.H.H.C. Elite Run Cap',
+    name: 'Elite Run Cap',
     subtitle: 'Ultra-Lightweight Hydro-Shed Visor',
     price: 32,
     rating: 4.9,
@@ -94,7 +94,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'emerald-tumbler',
-    name: 'V.H.H.C. Carbon Tumbler',
+    name: 'Carbon Tumbler',
     subtitle: 'Thermal Pro Insulation Flask',
     price: 36,
     rating: 4.9,
@@ -112,7 +112,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sport-shaker',
-    name: 'V.H.H.C. Magnetic Sport Shaker',
+    name: 'Magnetic Sport Shaker',
     subtitle: 'High-Performance Insulated Flask',
     price: 42,
     rating: 5.0,
@@ -130,7 +130,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'sport-windbreaker',
-    name: 'V.H.H.C. Elite Run Windbreaker',
+    name: 'Elite Run Windbreaker',
     subtitle: 'Champagne Trim Weather-Shedder',
     price: 110,
     rating: 4.9,
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'aerotech-shorts',
-    name: 'V.H.H.C. AeroTech Shorts',
+    name: 'AeroTech Shorts',
     subtitle: 'Dual-Layer Cardiovascular Shorts',
     price: 48,
     rating: 4.8,
@@ -166,7 +166,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'legend-duffle',
-    name: 'V.H.H.C. Legend Duffle Bag',
+    name: 'Legend Duffle Bag',
     subtitle: 'Tactical Workspace Gym Vault',
     price: 95,
     rating: 4.9,
@@ -184,7 +184,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'training-tee',
-    name: 'V.H.H.C. Apex Training Tee',
+    name: 'Apex Training Tee',
     subtitle: 'Somatic Seamless Active Shirt',
     price: 38,
     rating: 5.0,
@@ -224,7 +224,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: '3',
     name: 'Naomi Rae',
-    role: 'Founder & Visionary, V.H.H.C.',
+    role: 'Founder & Visionary',
     achievement: 'Lifestyle Architect',
     content: "We did not build this brand to just sell beans. We engineered an anthem for the relentless. An energetic pledge of discipline, wellness, and continuous personal growth. A Legendary Sip is simply our standard.",
     rating: 5,
@@ -235,7 +235,7 @@ export const TESTIMONIALS: Testimonial[] = [
 export const VENTURES: Venture[] = [
   {
     id: 'v1',
-    title: 'V.H.H.C. Alpha Athletic Cafe',
+    title: "SweetNaomiRae's Coffee & More powered by V.H.H.C.",
     description: 'Our upcoming physical lifestyle sanctuary. Blending a high-performance biometric bio-hacking lounge, recovery pods, organic roastery, and run-club clubhouses.',
     status: 'Launch Partner',
     icon: 'Compass',

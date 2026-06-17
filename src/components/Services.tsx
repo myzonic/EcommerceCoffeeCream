@@ -64,14 +64,14 @@ export default function Services({ ventures }: ServicesProps) {
           <div className="inline-flex items-center space-x-2 bg-brand-sand/60 border border-brand-sand rounded-full py-1 px-3">
             <Compass className="w-3.5 h-3.5 text-brand-emerald" />
             <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-brand-charcoal font-bold">
-              Future V.H.H.C. Ecosystem
+              Future Ecosystem
             </span>
           </div>
           <h2 className="font-display font-bold text-4xl md:text-5xl tracking-tight text-brand-charcoal">
             The Horizon Ventures
           </h2>
           <p className="font-sans text-brand-charcoal/70 text-sm md:text-base leading-relaxed">
-            SweetNaomiRae’s is more than coffee. In synergy with the Virtual High-Performance Human Club (V.H.H.C.), we are constructing digital platforms, physical recovery sanctuaries, and mental performance clubs designed to guide personal transformation. Explore what is coming next:
+            SweetNaomiRae’s is more than coffee. We are constructing digital platforms, physical recovery sanctuaries, and mental performance clubs designed to guide personal transformation. Explore what is coming next:
           </p>
         </motion.div>
 
@@ -174,7 +174,7 @@ export default function Services({ ventures }: ServicesProps) {
           className="mt-16 text-center"
         >
           <p className="font-mono text-[10px] text-brand-gold uppercase tracking-[0.2em] font-semibold">
-            V.H.H.C. Brand Alliance Partnership
+            Brand Alliance Partnership
           </p>
           <div className="inline-flex flex-wrap justify-center items-center gap-6 mt-6 p-4 px-8 rounded-full bg-brand-pearl border border-brand-sand/40 max-w-2xl mx-auto">
             <span className="font-display font-medium text-xs text-brand-charcoal">Columbia Bio Labs</span>

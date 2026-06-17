@@ -224,10 +224,12 @@ export default function Merchandise({ products, onAddToCart }: MerchandiseProps)
           <div className="absolute top-0 right-0 w-64 h-64 bg-brand-emerald/10 rounded-full blur-3xl pointer-events-none" />
 
           <div className="relative text-left space-y-3 z-10 max-w-xl">
-            <span className="font-mono text-[9px] text-brand-gold uppercase tracking-[0.2em] font-semibold block">The V.H.H.C. Pledge</span>
+            <span className="font-mono text-[9px] text-brand-gold uppercase tracking-[0.2em] font-semibold block">The Pledge</span>
             <h3 className="font-display font-medium text-2xl md:text-3xl tracking-tight leading-tight">
-              We conquer the morning. <br />
-              We dictate the output.
+              BUILT BEFORE SUNRISE.<br />
+              Rooted in FAMILY.<br />
+              Fueled by purpose.<br />
+              A SIP OF LEGACY IN EVERY CUP!!
             </h3>
             <p className="text-brand-sand/65 text-xs md:text-sm leading-relaxed">
               Every clothing stitch and thermal flask weld has been rigorously stress-tested in wet, near-freezing dawn road sessions and ultra-endurance training circuits. No compromises.

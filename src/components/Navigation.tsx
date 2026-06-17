@@ -22,7 +22,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
     { id: 'hero', label: 'The Anthem', info: 'Watch the Story Unfold', icon: Sparkles },
     { id: 'flagship', label: 'POPS 4:30AM', info: 'Flagship Performance Roast', icon: Flame },
     { id: 'merchandise', label: 'Gear & Apparel', info: 'Athletic Luxury Wear', icon: Trophy },
-    { id: 'ventures', label: 'V.H.H.C. Ventures', info: 'Future Wellness & Spaces', icon: Coffee },
+    { id: 'ventures', label: 'Ventures', info: 'Future Wellness & Spaces', icon: Coffee },
     { id: 'impact', label: 'Donation & Impact', info: 'Building Everyday Legends', icon: Heart },
   ];
 
@@ -47,14 +47,13 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
           {/* Logo / Brand Name */}
           <button 
             onClick={() => handleLinkClick('hero')} 
-            className="flex flex-col items-start cursor-pointer group text-left"
+            className="flex items-center cursor-pointer group text-left"
           >
-            <span className="font-display font-bold text-lg md:text-xl tracking-tight text-brand-charcoal group-hover:text-brand-emerald transition-colors">
-              SweetNaomiRae’s
-            </span>
-            <span className="font-mono text-[9px] tracking-[0.25em] text-brand-gold uppercase -mt-0.5 font-medium">
-              Coffee & More
-            </span>
+            <img
+              src="/logo.png"
+              alt="Verde Harvest Holdings Corp"
+              className="h-10 md:h-12 w-auto object-contain"
+            />
           </button>
 
           {/* Slogan pill (Desktop only) */}
@@ -150,7 +149,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
                     />
                     <div>
                       <span className="font-mono text-[10px] text-brand-gold tracking-widest uppercase block">Latest Venture</span>
-                      <span className="text-white text-xs font-semibold">V.H.H.C. Athletic Hubs</span>
+                      <span className="text-white text-xs font-semibold">Athletic Hubs</span>
                     </div>
                   </div>
                 </div>
@@ -197,7 +196,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
             {/* Bottom bar of overlay */}
             <div className="max-w-7xl mx-auto w-full border-t border-brand-gold/10 pt-6 mt-8 flex flex-col md:flex-row items-center justify-between z-10 text-brand-sand/55 text-xs font-mono">
-              <p>© 2026 SweetNaomiRae’s. Co-designed by V.H.H.C. All rights reserved.</p>
+              <p>© 2026 SweetNaomiRae’s. All rights reserved.</p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#hero" onClick={() => handleLinkClick('hero')} className="hover:text-white transition-colors">The Anthem</a>
                 <a href="#flagship" onClick={() => handleLinkClick('flagship')} className="hover:text-white transition-colors">Roast Details</a>

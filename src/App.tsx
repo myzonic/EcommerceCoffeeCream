@@ -150,7 +150,7 @@ export default function App() {
           onAddToCart={handleAddToCart}
         />
 
-        {/* Future V.H.H.C. Offerings & Services */}
+        {/* Future Offerings & Services */}
         <Services ventures={VENTURES} />
 
         {/* Endorsements / Customer Reviews Slider */}
@@ -185,7 +185,7 @@ export default function App() {
               Coffee & More
             </span>
             <p className="text-brand-sand/55 text-xs leading-relaxed max-w-xs">
-              Sourcing extraordinary volcanic-soil roasts, designing functional premium gear, and constructing human performance networks in alliance with V.H.H.C.
+              Sourcing extraordinary volcanic-soil roasts, designing functional premium gear, and constructing human performance networks in alliance with our partners
             </p>
           </div>
 
@@ -207,7 +207,7 @@ export default function App() {
               <span className="hover:text-white cursor-help">Lab Certified Adaptogens</span>
               <span className="hover:text-white cursor-help">Double carbon emission maps</span>
               <span className="hover:text-white cursor-help">Direct Colombian Fair Premium</span>
-              <span className="hover:text-white cursor-help">V.H.H.C. Alliance Standards</span>
+              <span className="hover:text-white cursor-help">Alliance Standards</span>
             </div>
           </div>
 
@@ -230,9 +230,9 @@ export default function App() {
 
         </motion.div>
 
-        {/* Signature credit lines of V.H.H.C. */}
+        {/* Signature credit lines */}
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-[#71717a] text-[10px] font-mono gap-4">
-          <p>© 2026 SweetNaomiRae’s. Engineered under tactical guidance of V.H.H.C. Group. All rights reserved.</p>
+          <p>© 2026 SweetNaomiRae’s. All rights reserved.</p>
           <div className="flex space-x-6">
             <span className="hover:text-[#ffffff] cursor-pointer">Sovereignty Protocols</span>
             <span className="hover:text-[#ffffff] cursor-pointer">Impact Reports</span>
