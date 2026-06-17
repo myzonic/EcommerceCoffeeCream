@@ -286,7 +286,7 @@ export const PRODUCTS: Product[] = [
       'Adjustable drawstring waistband',
       'Built Before Sunrise branding'
     ],
-    image: '/assets/images/Trouser.png',
+    image: '/assets/images/Men\'s Joggers.png',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
