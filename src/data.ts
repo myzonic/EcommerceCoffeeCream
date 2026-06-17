@@ -25,7 +25,7 @@ export const PRODUCTS: Product[] = [
       { name: 'Organic Roasting Code', value: 'Slow double carbon-monitored', icon: 'Flame' },
       { name: 'Athletic Adaptogens', value: 'Subtle clean recovery profiles', icon: 'Zap' }
     ],
-    image: '/assets/images/pops_coffee_bag_1781457387033.jpg',
+    image: '/assets/images/Coffee Blend Packaging.png',
     category: 'coffee',
     badge: 'Flagship Roast',
     hotspots: [
@@ -52,7 +52,7 @@ export const PRODUCTS: Product[] = [
       { name: 'Peach & Toffee Finish', value: 'High caramelization profiling', icon: 'Sunset' },
       { name: 'Ambassador Grade', value: 'Top 1.5% of world crops', icon: 'Crown' }
     ],
-    image: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Coffee Blend Packaging.png',
     category: 'coffee',
     badge: 'Designer Series'
   },
@@ -214,7 +214,7 @@ export const PRODUCTS: Product[] = [
       'Moisture-wicking fabric technology',
       'Built Before Sunrise front branding'
     ],
-    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Performance Tee.png',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -232,7 +232,7 @@ export const PRODUCTS: Product[] = [
       'Kangaroo pocket with media channel',
       'Built Before Sunrise back print'
     ],
-    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Premium Hoodie.png',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -286,7 +286,7 @@ export const PRODUCTS: Product[] = [
       'Adjustable drawstring waistband',
       'Built Before Sunrise branding'
     ],
-    image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Trouser.png',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -304,7 +304,7 @@ export const PRODUCTS: Product[] = [
       'Curved pre-shopped brim',
       'Adjustable snapback closure'
     ],
-    image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Dad Hat.png',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -322,7 +322,7 @@ export const PRODUCTS: Product[] = [
       'Built Before Sunrise front print',
       'Versatile training to casual wear'
     ],
-    image: 'https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/T shirt.png',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -340,7 +340,7 @@ export const PRODUCTS: Product[] = [
       'Zippered security pocket',
       'Built Before Sunrise branding'
     ],
-    image: 'https://images.unsplash.com/photo-1572490122747-0b7b8b3a7a9d?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Athletic Shorts.png',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -358,7 +358,7 @@ export const PRODUCTS: Product[] = [
       'Sleeve: V.H.H.C. logo',
       'Matching family collection'
     ],
-    image: 'https://images.unsplash.com/photo-1519455953752-af9ced38fd60?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Youth Tee.png',
     category: 'apparel',
     badge: 'Youth Collection'
   },
@@ -376,7 +376,7 @@ export const PRODUCTS: Product[] = [
       'Sleeve: V.H.H.C. logo',
       'Matching family collection'
     ],
-    image: 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Youth Hoodie.png',
     category: 'apparel',
     badge: 'Youth Collection'
   },
@@ -394,7 +394,7 @@ export const PRODUCTS: Product[] = [
       'Matching family collection set',
       'Premium quality construction'
     ],
-    image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Family Collection.png',
     category: 'apparel',
     badge: 'Family Collection'
   },
@@ -412,7 +412,7 @@ export const PRODUCTS: Product[] = [
       'Side pockets',
       'Matching family collection set'
     ],
-    image: 'https://images.unsplash.com/photo-1552902865-b72c031ac5ea?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Family Collection.png',
     category: 'apparel',
     badge: 'Family Collection'
   },
@@ -430,7 +430,7 @@ export const PRODUCTS: Product[] = [
       'Comfortable everyday wear',
       'Coordinates with Dad pieces'
     ],
-    image: 'https://images.unsplash.com/photo-1522771938034-1f3a3e191e3e?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Family Collection.png',
     category: 'apparel',
     badge: 'Family Collection'
   },
@@ -448,7 +448,7 @@ export const PRODUCTS: Product[] = [
       'Comfortable and warm',
       'Coordinates with Dad pieces'
     ],
-    image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Family Collection.png',
     category: 'apparel',
     badge: 'Family Collection'
   },
@@ -466,7 +466,7 @@ export const PRODUCTS: Product[] = [
       'Moisture-wicking technology',
       'Brand logo detailing'
     ],
-    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Women\'s Leggings.png',
     category: 'apparel',
     badge: 'Women\'s Collection'
   },
@@ -484,7 +484,7 @@ export const PRODUCTS: Product[] = [
       'Brand logo front',
       'Perfect for training'
     ],
-    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Women\'s Crop Top.png',
     category: 'apparel',
     badge: 'Women\'s Collection'
   },
@@ -502,7 +502,7 @@ export const PRODUCTS: Product[] = [
       'Microwave and dishwasher safe',
       '12oz capacity'
     ],
-    image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Coffee Cup.png',
     category: 'gear',
     badge: 'Coffee Collection'
   },
@@ -520,7 +520,7 @@ export const PRODUCTS: Product[] = [
       'Reusable and washable',
       'Fits standard coffee cups'
     ],
-    image: 'https://images.unsplash.com/photo-1570937400288-4f2c0e2c34c7?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/images/Coffee Subscription.png',
     category: 'gear',
     badge: 'Coffee Collection'
   }
