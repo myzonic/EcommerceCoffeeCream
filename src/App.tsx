@@ -18,6 +18,7 @@ import { PRODUCTS, TESTIMONIALS, VENTURES, IMPACT_MILESTONES } from './data';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Merchandise from './components/Merchandise';
+import WomenCollection from './components/WomenCollection';
 import PortfolioGallery from './components/PortfolioGallery';
 import Services from './components/Services';
 import WhyChoose from './components/WhyChoose';
@@ -37,7 +38,7 @@ export default function App() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 500);
 
-      const sections = ['hero', 'flagship', 'merchandise', 'ventures', 'impact'];
+      const sections = ['hero', 'merchandise', 'womens-collection', 'ventures', 'impact'];
       const scrollPos = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -139,6 +140,12 @@ export default function App() {
 
         {/* Physical Fitness & Coffee Apparel Gear Droppings */}
         <Merchandise
+          products={PRODUCTS}
+          onAddToCart={handleAddToCart}
+        />
+
+        {/* Women's Collection */}
+        <WomenCollection
           products={PRODUCTS}
           onAddToCart={handleAddToCart}
         />

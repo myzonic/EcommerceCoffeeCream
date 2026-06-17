@@ -46,7 +46,7 @@ export default function Merchandise({ products, onAddToCart }: MerchandiseProps)
         {/* Section Heading */}
         <div className="mb-12 text-center md:text-left">
           <h2 className="font-display font-bold text-4xl md:text-5xl tracking-tight text-brand-charcoal">
-            Merch Collection – <span className="text-brand-emerald">Built Before Sunrise</span>
+            Men Collection – <span className="text-brand-emerald">Built Before Sunrise</span>
           </h2>
         </div>
 

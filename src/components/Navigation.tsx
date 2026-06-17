@@ -20,7 +20,8 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
   const navItems = [
     { id: 'hero', label: 'The Anthem', info: 'Watch the Story Unfold', icon: Sparkles },
-    { id: 'merchandise', label: 'Gear & Apparel', info: 'Athletic Luxury Wear', icon: Trophy },
+    { id: 'merchandise', label: 'Men Collection', info: 'Built Before Sunrise', icon: Trophy },
+    { id: 'womens-collection', label: 'Women Collection', info: 'Her Edition', icon: Heart },
     { id: 'ventures', label: 'Ventures', info: 'Future Wellness & Spaces', icon: Coffee },
     { id: 'impact', label: 'Donation & Impact', info: 'Building Everyday Legends', icon: Heart },
   ];

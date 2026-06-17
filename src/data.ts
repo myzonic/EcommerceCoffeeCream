@@ -149,6 +149,204 @@ export const PRODUCTS: Product[] = [
     image: '/assets/images/Youth Hoodie.png',
     category: 'apparel',
     badge: 'Youth Collection'
+  },
+  {
+    id: 'womens-leggings',
+    name: "Signature Leggings",
+    subtitle: "Women's Collection",
+    price: 54,
+    rating: 4.9,
+    reviewsCount: 43,
+    description: 'High-waisted squat-proof leggings with hidden phone pocket. Available in emerald green, black, and heather gray. Premium performance fabric for training and everyday wear.',
+    benefits: [
+      'High-waisted compression fit',
+      'Squat-proof fabric',
+      'Hidden phone pocket',
+      'Emerald green, black, heather gray'
+    ],
+    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-cropped-hoodie',
+    name: 'Cropped Hoodie',
+    subtitle: "Women's Collection",
+    price: 48,
+    rating: 4.8,
+    reviewsCount: 31,
+    description: 'Cropped hoodie with small sunrise logo on front and "Built Before Sunrise" on back. Perfect for training or casual wear.',
+    benefits: [
+      'Front: small sunrise logo',
+      'Back: "Built Before Sunrise"',
+      'Cropped athletic fit',
+      'Soft cotton blend fleece'
+    ],
+    image: 'https://images.unsplash.com/photo-1556908040-0c4f8e7b0b0b?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-quarterzip',
+    name: 'Quarter-Zip Performance Top',
+    subtitle: "Women's Collection",
+    price: 42,
+    rating: 4.9,
+    reviewsCount: 27,
+    description: 'Lightweight quarter-zip performance top with thumb holes. Designed for gym and casual wear. Moisture-wicking and breathable.',
+    benefits: [
+      'Lightweight performance fabric',
+      'Thumb holes for sleeve coverage',
+      'Quarter-zip front',
+      'Gym and casual wear'
+    ],
+    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-jogger-set',
+    name: "Women's Jogger Set",
+    subtitle: "Women's Collection",
+    price: 88,
+    rating: 4.9,
+    reviewsCount: 19,
+    description: 'Premium jogger set including matching joggers and zip-up jacket. Features gold embroidered logo detailing. Luxurious athletic wear.',
+    benefits: [
+      'Premium joggers + zip-up jacket',
+      'Gold embroidered logo',
+      'Matching two-piece set',
+      'Comfortable athletic fit'
+    ],
+    image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-racerback',
+    name: 'Racerback Tank',
+    subtitle: "Women's Collection",
+    price: 28,
+    rating: 4.7,
+    reviewsCount: 35,
+    description: 'Racerback tank top featuring "SweetNaomiRae\'s Coffee & More" on front and "Fueled By Legacy" on back. Lightweight training essential.',
+    benefits: [
+      'Front: SweetNaomiRae\'s Coffee & More',
+      'Back: "Fueled By Legacy"',
+      'Lightweight performance fabric',
+      'Racerback design for mobility'
+    ],
+    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-weekend-hoodie',
+    name: 'Oversized Weekend Hoodie',
+    subtitle: "Women's Collection",
+    price: 62,
+    rating: 4.9,
+    reviewsCount: 24,
+    description: 'Oversized relaxed fit hoodie in soft fleece. Features coffee cup logo on sleeve. The ultimate weekend comfort piece.',
+    benefits: [
+      'Soft fleece fabric',
+      'Relaxed oversized fit',
+      'Coffee cup logo on sleeve',
+      'Perfect weekend layering piece'
+    ],
+    image: 'https://images.unsplash.com/photo-1556908040-0c4f8e7b0b0b?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'naomi-hoodie',
+    name: 'Naomi Rae Luxury Hoodie',
+    subtitle: 'The Naomi Rae Collection',
+    price: 98,
+    rating: 5.0,
+    reviewsCount: 16,
+    description: 'Premium luxury hoodie from The Naomi Rae Collection. Designed for the woman who is strong, graceful, and unstoppable. Part of an exclusive premium line.',
+    benefits: [
+      'Premium heavyweight fleece',
+      'The Naomi Rae Collection',
+      'Strong. Graceful. Unstoppable.',
+      'Luxury gold tone detailing'
+    ],
+    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-leggings',
+    name: 'Naomi Rae Signature Leggings',
+    subtitle: 'The Naomi Rae Collection',
+    price: 68,
+    rating: 5.0,
+    reviewsCount: 21,
+    description: 'Signature leggings from The Naomi Rae Collection. Premium high-waisted design with gold tone accents. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'High-waisted premium fit',
+      'Gold tone accent details',
+      'The Naomi Rae Collection',
+      'Strong. Graceful. Unstoppable.'
+    ],
+    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-longsleeve',
+    name: 'Naomi Rae Long Sleeve',
+    subtitle: 'The Naomi Rae Collection',
+    price: 48,
+    rating: 4.9,
+    reviewsCount: 14,
+    description: 'Long sleeve performance shirt from The Naomi Rae Collection. Premium fabric with elegant branding. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Premium long sleeve fit',
+      'Performance fabric',
+      'The Naomi Rae Collection',
+      'Strong. Graceful. Unstoppable.'
+    ],
+    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-cap',
+    name: 'Naomi Rae Baseball Cap',
+    subtitle: 'The Naomi Rae Collection',
+    price: 32,
+    rating: 4.8,
+    reviewsCount: 11,
+    description: 'Premium baseball cap from The Naomi Rae Collection. Structured fit with elegant Naomi Rae branding. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Structured baseball cap fit',
+      'Premium Naomi Rae branding',
+      'The Naomi Rae Collection',
+      'Strong. Graceful. Unstoppable.'
+    ],
+    image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-tumbler',
+    name: 'Naomi Rae Coffee Tumbler',
+    subtitle: 'The Naomi Rae Collection',
+    price: 28,
+    rating: 4.9,
+    reviewsCount: 9,
+    description: 'Premium coffee tumbler from The Naomi Rae Collection. Double-wall insulated with elegant gold branding. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Double-wall insulated',
+      'Gold tone branding',
+      'The Naomi Rae Collection',
+      'Strong. Graceful. Unstoppable.'
+    ],
+    image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=800&auto=format&fit=crop',
+    category: 'gear',
+    badge: 'The Naomi Rae Collection'
   }
 ];
 
