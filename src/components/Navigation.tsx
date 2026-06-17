@@ -52,7 +52,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
             <img
               src="/logo.png"
               alt="Verde Harvest Holdings Corp"
-              className="h-10 md:h-12 w-auto object-contain"
+              className="h-16 md:h-20 w-auto object-contain"
             />
           </button>
 
