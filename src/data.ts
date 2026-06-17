@@ -199,6 +199,78 @@ export const PRODUCTS: Product[] = [
     image: '/assets/images/training_tee_1781458534604.jpg',
     category: 'apparel',
     badge: 'Pro Performance'
+  },
+  {
+    id: 'bbs-tee',
+    name: 'Built Before Sunrise Tee',
+    subtitle: 'Gym / Running / Training / Weekend Wear',
+    price: 34,
+    rating: 5.0,
+    reviewsCount: 56,
+    description: 'Premium performance cotton tee built for early morning grind sessions, gym workouts, running, and weekend wear. Pair with Coffee after workout for maximum recovery.',
+    benefits: [
+      'Premium ringspun cotton construction',
+      'Breathable athletic fit design',
+      'Moisture-wicking fabric technology',
+      'Built Before Sunrise front branding'
+    ],
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Built Before Sunrise'
+  },
+  {
+    id: 'bbs-hoodie',
+    name: 'Built Before Sunrise Hoodie',
+    subtitle: 'Gym / Running / Training / Weekend Wear',
+    price: 78,
+    rating: 5.0,
+    reviewsCount: 42,
+    description: 'Heavyweight fleece hoodie engineered for pre-dawn training sessions. Built for the ones who rise before the sun. Coffee after workout sold separately.',
+    benefits: [
+      'Heavyweight 400GSM fleece',
+      'Oversized athletic fit',
+      'Kangaroo pocket with media channel',
+      'Built Before Sunrise back print'
+    ],
+    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Built Before Sunrise'
+  },
+  {
+    id: 'otm-tee',
+    name: 'OTM Tri-Blend Tee',
+    subtitle: 'Signature Collection - Out The Mud',
+    price: 42,
+    rating: 5.0,
+    reviewsCount: 78,
+    description: 'Premium tri-blend t-shirt from the Signature Collection. Small "Out The Mud" text on upper chest. Back reads "Built not Given!" Crafted for those who earned it from the bottom.',
+    benefits: [
+      'Ultra-soft tri-blend fabric',
+      'Small upper chest "Out The Mud" print',
+      'Back "Built not Given!" statement',
+      'Signature Collection exclusive'
+    ],
+    image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Signature Collection'
+  },
+  {
+    id: 'otm-hoodie',
+    name: 'OTM Hoodie',
+    subtitle: 'Signature Collection - Out The Mud',
+    price: 88,
+    rating: 5.0,
+    reviewsCount: 63,
+    description: 'Premium heavyweight hoodie from the Signature Collection. Small "Out The Mud" embroidery on upper chest. Back features "Built not Given!" in bold print. For the ones who came from nothing.',
+    benefits: [
+      'Heavyweight 450GSM cotton blend',
+      'Small upper chest "Out The Mud" embroidery',
+      'Back "Built not Given!" bold print',
+      'Signature Collection exclusive'
+    ],
+    image: 'https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Signature Collection'
   }
 ];
 
