@@ -17,7 +17,6 @@ import { PRODUCTS, TESTIMONIALS, VENTURES, IMPACT_MILESTONES } from './data';
 
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
-import PopsShowcase from './components/PopsShowcase';
 import Merchandise from './components/Merchandise';
 import PortfolioGallery from './components/PortfolioGallery';
 import Services from './components/Services';
@@ -134,12 +133,6 @@ export default function App() {
 
         {/* Brand Core why us section (Intro Story elements) */}
         <WhyChoose />
-
-        {/* Immersive POPS Double Roast Flagship Showcase */}
-        <PopsShowcase
-          product={PRODUCTS[0]}
-          onAddToCart={handleAddToCart}
-        />
 
         {/* Asymmetrical Portfolio Visual Magazine Grid */}
         <PortfolioGallery />

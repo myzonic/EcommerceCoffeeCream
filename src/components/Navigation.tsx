@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, ShoppingBag, ArrowRight, Sparkles, Trophy, Coffee, Flame, Heart } from 'lucide-react';
+import { Menu, X, ShoppingBag, ArrowRight, Sparkles, Trophy, Coffee, Heart } from 'lucide-react';
 import { CartItem } from '../types';
 
 interface NavigationProps {
@@ -20,7 +20,6 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
   const navItems = [
     { id: 'hero', label: 'The Anthem', info: 'Watch the Story Unfold', icon: Sparkles },
-    { id: 'flagship', label: 'POPS 4:30AM', info: 'Flagship Performance Roast', icon: Flame },
     { id: 'merchandise', label: 'Gear & Apparel', info: 'Athletic Luxury Wear', icon: Trophy },
     { id: 'ventures', label: 'Ventures', info: 'Future Wellness & Spaces', icon: Coffee },
     { id: 'impact', label: 'Donation & Impact', info: 'Building Everyday Legends', icon: Heart },
