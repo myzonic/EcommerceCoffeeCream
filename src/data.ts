@@ -164,7 +164,6 @@ export const PRODUCTS: Product[] = [
       'Hidden phone pocket',
       'Emerald green, black, heather gray'
     ],
-    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: "Women's Collection"
   },
@@ -182,7 +181,6 @@ export const PRODUCTS: Product[] = [
       'Cropped athletic fit',
       'Soft cotton blend fleece'
     ],
-    image: 'https://images.unsplash.com/photo-1556908040-0c4f8e7b0b0b?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: "Women's Collection"
   },
@@ -200,7 +198,6 @@ export const PRODUCTS: Product[] = [
       'Quarter-zip front',
       'Gym and casual wear'
     ],
-    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: "Women's Collection"
   },
@@ -218,7 +215,6 @@ export const PRODUCTS: Product[] = [
       'Matching two-piece set',
       'Comfortable athletic fit'
     ],
-    image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: "Women's Collection"
   },
@@ -236,7 +232,6 @@ export const PRODUCTS: Product[] = [
       'Lightweight performance fabric',
       'Racerback design for mobility'
     ],
-    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: "Women's Collection"
   },
@@ -254,7 +249,6 @@ export const PRODUCTS: Product[] = [
       'Coffee cup logo on sleeve',
       'Perfect weekend layering piece'
     ],
-    image: 'https://images.unsplash.com/photo-1556908040-0c4f8e7b0b0b?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: "Women's Collection"
   },
@@ -272,7 +266,6 @@ export const PRODUCTS: Product[] = [
       'Strong. Graceful. Unstoppable.',
       'Luxury gold tone detailing'
     ],
-    image: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: 'The Naomi Rae Collection'
   },
@@ -290,7 +283,6 @@ export const PRODUCTS: Product[] = [
       'The Naomi Rae Collection',
       'Strong. Graceful. Unstoppable.'
     ],
-    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: 'The Naomi Rae Collection'
   },
@@ -308,7 +300,6 @@ export const PRODUCTS: Product[] = [
       'The Naomi Rae Collection',
       'Strong. Graceful. Unstoppable.'
     ],
-    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: 'The Naomi Rae Collection'
   },
@@ -326,7 +317,6 @@ export const PRODUCTS: Product[] = [
       'The Naomi Rae Collection',
       'Strong. Graceful. Unstoppable.'
     ],
-    image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: 'The Naomi Rae Collection'
   },
@@ -344,7 +334,6 @@ export const PRODUCTS: Product[] = [
       'The Naomi Rae Collection',
       'Strong. Graceful. Unstoppable.'
     ],
-    image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=800&auto=format&fit=crop',
     category: 'gear',
     badge: 'The Naomi Rae Collection'
   },
@@ -362,7 +351,6 @@ export const PRODUCTS: Product[] = [
       'Metallic Champagne Gold Trim Accents',
       'Highly Breathable Athletic Knit'
     ],
-    image: '/assets/images/merchandise_kit_1781457430354.jpg',
     category: 'apparel',
     badge: 'OTM Signature Drop'
   },
@@ -380,7 +368,6 @@ export const PRODUCTS: Product[] = [
       'Antimicrobial Silver-Weave Infusion',
       'Subtle Emerald and Black Accents'
     ],
-    image: '/assets/images/training_tee_1781458534604.jpg',
     category: 'apparel',
     badge: 'OTM Signature Drop'
   },
@@ -398,7 +385,6 @@ export const PRODUCTS: Product[] = [
       'High-contrast Reflective Gold Branding',
       'Adjustable Magnetic Crown Enclosure'
     ],
-    image: '/assets/images/athletic_run_cap_1781458182440.jpg',
     category: 'apparel',
     badge: 'OTM Signature Drop'
   },
@@ -416,7 +402,6 @@ export const PRODUCTS: Product[] = [
       'Stashable Pack-Away Hood Implementation',
       'Reflective Safety Slogan Prints'
     ],
-    image: '/assets/images/sport_windbreaker_1781458465773.jpg',
     category: 'apparel',
     badge: 'OTM Signature Drop'
   },
@@ -434,7 +419,6 @@ export const PRODUCTS: Product[] = [
       'Moisture-Wicking Fast Dry-Shield Fabric',
       'Matte Black & Raw Sand Contrast Theme'
     ],
-    image: '/assets/images/aerotech_shorts_1781458491774.jpg',
     category: 'apparel',
     badge: 'OTM Signature Drop'
   },
@@ -452,7 +436,6 @@ export const PRODUCTS: Product[] = [
       'Indestructible Gold Zipper Fastenings',
       'Ergonomic High-Comfort Shoulder Strap'
     ],
-    image: '/assets/images/legend_duffle_bag_1781458513453.jpg',
     category: 'gear',
     badge: 'OTM Signature Drop'
   },
@@ -515,7 +498,6 @@ export const PRODUCTS: Product[] = [
       'Signature Emerald Green Polish Coat',
       'Indestructible Double Wall Steel'
     ],
-    image: 'https://images.unsplash.com/photo-1577937927133-66ef06acdf18?q=80&w=800&auto=format&fit=crop',
     category: 'gear',
     badge: 'Coffee Collection'
   },
@@ -533,7 +515,6 @@ export const PRODUCTS: Product[] = [
       'Scratch-resistant Powder-coated Polish',
       'Perfect for Iced Coffee & Post-Run Shakes'
     ],
-    image: '/assets/images/thermal_sport_shaker_1781458205534.jpg',
     category: 'gear',
     badge: 'Coffee Collection'
   },

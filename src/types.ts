@@ -13,7 +13,7 @@ export interface Product {
   description: string;
   benefits: string[];
   ingredients?: { name: string; value: string; icon: string }[];
-  image: string;
+  image?: string;
   category: 'coffee' | 'apparel' | 'gear';
   badge?: string;
   hotspots?: { x: number; y: number; title: string; description: string }[];
