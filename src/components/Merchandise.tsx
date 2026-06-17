@@ -14,14 +14,12 @@ interface MerchandiseProps {
 }
 
 export default function Merchandise({ products, onAddToCart }: MerchandiseProps) {
-  // Filter products by category, excluding Built Before Sunrise collection
-  const bbsIds = ['bbs-tee', 'bbs-hoodie', 'bbs-joggers', 'bbs-dad-hat', 'bbs-triblend', 'bbs-shorts'];
-  const gearItems = products.filter(p => (p.category === 'apparel' || p.category === 'gear') && !bbsIds.includes(p.id));
+  // Filter products by category, excluding Built Before Sunrise and legacy products
+  const excludeIds = ['bbs-tee', 'bbs-hoodie', 'bbs-joggers', 'bbs-dad-hat', 'bbs-triblend', 'bbs-shorts', 'legend-hoodie', 'athletic-run-cap', 'emerald-tumbler', 'sport-shaker', 'sport-windbreaker', 'aerotech-shorts', 'legend-duffle', 'training-tee'];
+  const gearItems = products.filter(p => (p.category === 'apparel' || p.category === 'gear') && !excludeIds.includes(p.id));
   
   // Size selection state for apparel items
-  const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>({
-    'legend-hoodie': 'M'
-  });
+  const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>({});
   
   const [successId, setSuccessId] = useState<string | null>(null);
 
