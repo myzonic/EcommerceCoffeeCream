@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Trophy, CheckCircle, Flame, ArrowUpRight, ShoppingBag } from 'lucide-react';
+import { CheckCircle, Flame, ShoppingBag } from 'lucide-react';
 import { Product, CartItem } from '../types';
 
 interface MerchandiseProps {
@@ -46,34 +46,6 @@ export default function Merchandise({ products, onAddToCart }: MerchandiseProps)
       
       <div className="max-w-7xl mx-auto">
         
-        {/* Story Intro Header with Asymmetrical Split */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16"
-        >
-          <div className="lg:col-span-7 text-left space-y-4">
-            <div className="inline-flex items-center space-x-2 bg-brand-beige border border-brand-sand/50 rounded-full py-1 px-3.5">
-              <Trophy className="w-3.5 h-3.5 text-brand-emerald" />
-              <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-brand-charcoal font-bold">
-                Elite Apparel & Physical Gear
-              </span>
-            </div>
-            <h2 className="font-display font-bold text-4xl md:text-5xl tracking-tight text-brand-charcoal leading-tight">
-              Crafted For Everyday <br />
-              <span className="text-brand-emerald">Athletes & High Achievers</span>
-            </h2>
-          </div>
-          
-          <div className="lg:col-span-5 text-left lg:text-right pb-1">
-            <p className="font-sans text-brand-charcoal/70 text-sm leading-relaxed max-w-md ml-auto">
-              We design structured minimalist apparel and high-performance physical gear that blends active sports durability with luxury street style architecture. Built to survive intense early morning sessions and high-stakes boardrooms alike.
-            </p>
-          </div>
-        </motion.div>
-
         {/* Master Showcase Layout: 2-Column Luxury Grid */}
         <motion.div
           initial="hidden"
