@@ -63,6 +63,20 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             </motion.h1>
           </div>
 
+          {/* Brand Tagline Strip */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.15, duration: 0.8 }}
+            className="flex flex-wrap items-center gap-3 py-3 px-5 bg-brand-charcoal rounded-full border border-brand-gold/20"
+          >
+            <span className="font-mono text-[10px] md:text-[11px] uppercase tracking-[0.15em] text-brand-gold font-bold">BUILT BEFORE SUNRISE</span>
+            <span className="w-1 h-1 rounded-full bg-brand-emerald" />
+            <span className="font-mono text-[10px] md:text-[11px] uppercase tracking-[0.15em] text-brand-sand/80">Rooted in FAMILY. Fueled by purpose.</span>
+            <span className="w-1 h-1 rounded-full bg-brand-emerald" />
+            <span className="font-mono text-[10px] md:text-[11px] uppercase tracking-[0.15em] text-brand-emerald font-bold">A SIP OF LEGACY IN EVERY CUP!!</span>
+          </motion.div>
+
           {/* Supportive Copy focusing on performance, ambition, entrepreneurs */}
           <motion.p
             initial={{ opacity: 0, y: 20 }}

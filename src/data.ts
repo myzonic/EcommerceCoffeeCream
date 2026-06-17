@@ -271,6 +271,258 @@ export const PRODUCTS: Product[] = [
     image: 'https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?q=80&w=800&auto=format&fit=crop',
     category: 'apparel',
     badge: 'Signature Collection'
+  },
+  {
+    id: 'bbs-joggers',
+    name: 'Built Before Sunrise Joggers',
+    subtitle: 'Gym / Running / Training / Weekend Wear',
+    price: 62,
+    rating: 4.9,
+    reviewsCount: 38,
+    description: 'Premium athletic joggers engineered for pre-dawn runs and post-workout recovery. Built with moisture-wicking fabric and an elastic cuffed hem. Coffee after workout lifestyle.',
+    benefits: [
+      'Moisture-wicking performance fabric',
+      'Elastic cuffed hem with zippered pockets',
+      'Adjustable drawstring waistband',
+      'Built Before Sunrise branding'
+    ],
+    image: 'https://images.unsplash.com/photo-1591195853828-11db59a44f6b?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Built Before Sunrise'
+  },
+  {
+    id: 'bbs-dad-hat',
+    name: 'Built Before Sunrise Dad Hat',
+    subtitle: 'Clean Minimal Signature Cap',
+    price: 28,
+    rating: 4.8,
+    reviewsCount: 45,
+    description: 'Clean structured dad hat with embroidered brand logo only. Minimal, premium, everyday wear. Curved brim, adjustable snapback closure.',
+    benefits: [
+      'Premium cotton twill construction',
+      'Embroidered brand logo front only',
+      'Curved pre-shopped brim',
+      'Adjustable snapback closure'
+    ],
+    image: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Built Before Sunrise'
+  },
+  {
+    id: 'bbs-triblend',
+    name: 'Built Before Sunrise Tri-Blend Tee',
+    subtitle: 'Premium Tri-Blend Performance',
+    price: 38,
+    rating: 5.0,
+    reviewsCount: 52,
+    description: 'Ultra-soft tri-blend performance tee from the Built Before Sunrise collection. Designed for gym, running, training, and weekend wear. Coffee after workout.',
+    benefits: [
+      'Ultra-soft tri-blend fabric',
+      'Breathable athletic fit',
+      'Built Before Sunrise front print',
+      'Versatile training to casual wear'
+    ],
+    image: 'https://images.unsplash.com/photo-1503341504253-dff4815485f1?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Built Before Sunrise'
+  },
+  {
+    id: 'bbs-shorts',
+    name: 'Built Before Sunrise Athletic Shorts',
+    subtitle: 'Performance Training Shorts',
+    price: 44,
+    rating: 4.9,
+    reviewsCount: 61,
+    description: 'High-performance athletic shorts built for intense training sessions. Lightweight, breathable, and fast-drying. Part of the Built Before Sunrise first drop.',
+    benefits: [
+      'Lightweight quick-dry fabric',
+      'Built-in compression liner',
+      'Zippered security pocket',
+      'Built Before Sunrise branding'
+    ],
+    image: 'https://images.unsplash.com/photo-1572490122747-0b7b8b3a7a9d?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Built Before Sunrise'
+  },
+  {
+    id: 'youth-tee',
+    name: 'Youth Built Before Sunrise Tee',
+    subtitle: 'Kids Collection',
+    price: 24,
+    rating: 4.9,
+    reviewsCount: 27,
+    description: 'Youth t-shirt featuring "Built Before Sunrise" on back and V.H.H.C. on sleeve. Matching family collection piece for the next generation of legends.',
+    benefits: [
+      'Soft ringspun cotton',
+      'Back: "Built Before Sunrise" print',
+      'Sleeve: V.H.H.C. logo',
+      'Matching family collection'
+    ],
+    image: 'https://images.unsplash.com/photo-1519455953752-af9ced38fd60?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Youth Collection'
+  },
+  {
+    id: 'youth-hoodie',
+    name: 'Youth Built Before Sunrise Hoodie',
+    subtitle: 'Kids Collection',
+    price: 48,
+    rating: 4.9,
+    reviewsCount: 22,
+    description: 'Youth hoodie featuring "Built Before Sunrise" on back and V.H.H.C. on sleeve. Warm, comfortable fleece for the young ones who rise early.',
+    benefits: [
+      'Soft cotton blend fleece',
+      'Back: "Built Before Sunrise" print',
+      'Sleeve: V.H.H.C. logo',
+      'Matching family collection'
+    ],
+    image: 'https://images.unsplash.com/photo-1503919545889-aef636e10ad4?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Youth Collection'
+  },
+  {
+    id: 'family-dad-hoodie',
+    name: 'Family Match Dad Hoodie',
+    subtitle: 'Family Collection - Matching Set',
+    price: 85,
+    rating: 5.0,
+    reviewsCount: 31,
+    description: 'Premium heavyweight hoodie for dad. Part of the coordinated family matching set. Features brand logo on chest. Pair with Family Match Joggers and Youth pieces.',
+    benefits: [
+      'Heavyweight 450GSM fleece',
+      'Brand logo chest placement',
+      'Matching family collection set',
+      'Premium quality construction'
+    ],
+    image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Family Collection'
+  },
+  {
+    id: 'family-dad-joggers',
+    name: 'Family Match Dad Joggers',
+    subtitle: 'Family Collection - Matching Set',
+    price: 62,
+    rating: 4.9,
+    reviewsCount: 25,
+    description: 'Premium joggers for dad. Coordinated matching set with Family Match Dad Hoodie and Youth pieces. Built for comfort and style.',
+    benefits: [
+      'Premium cotton blend fabric',
+      'Elastic cuffs with drawstring waist',
+      'Side pockets',
+      'Matching family collection set'
+    ],
+    image: 'https://images.unsplash.com/photo-1552902865-b72c031ac5ea?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Family Collection'
+  },
+  {
+    id: 'family-kids-tee',
+    name: 'Family Match Kids Tee',
+    subtitle: 'Family Collection - Matching Set',
+    price: 22,
+    rating: 4.8,
+    reviewsCount: 18,
+    description: 'Kids t-shirt that matches the Family Collection. Coordinates with Dad hoodie and joggers for the perfect family look.',
+    benefits: [
+      'Soft cotton jersey',
+      'Matching family set design',
+      'Comfortable everyday wear',
+      'Coordinates with Dad pieces'
+    ],
+    image: 'https://images.unsplash.com/photo-1522771938034-1f3a3e191e3e?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Family Collection'
+  },
+  {
+    id: 'family-kids-hoodie',
+    name: 'Family Match Kids Hoodie',
+    subtitle: 'Family Collection - Matching Set',
+    price: 44,
+    rating: 4.9,
+    reviewsCount: 15,
+    description: 'Kids hoodie that matches the Family Collection. Coordinates with Dad hoodie and joggers for coordinated family style.',
+    benefits: [
+      'Soft cotton fleece',
+      'Matching family set design',
+      'Comfortable and warm',
+      'Coordinates with Dad pieces'
+    ],
+    image: 'https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Family Collection'
+  },
+  {
+    id: 'womens-leggings',
+    name: 'Women\'s Performance Leggings',
+    subtitle: 'Women\'s Collection',
+    price: 54,
+    rating: 4.9,
+    reviewsCount: 43,
+    description: 'High-waisted performance leggings with brand logo detailing. Designed for training, running, and everyday wear. Moisture-wicking with four-way stretch.',
+    benefits: [
+      'High-waisted compression fit',
+      'Four-way stretch fabric',
+      'Moisture-wicking technology',
+      'Brand logo detailing'
+    ],
+    image: 'https://images.unsplash.com/photo-1506629082955-511b1aa562c8?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Women\'s Collection'
+  },
+  {
+    id: 'womens-crop',
+    name: 'Women\'s Logo Crop Top',
+    subtitle: 'Women\'s Collection',
+    price: 32,
+    rating: 4.8,
+    reviewsCount: 36,
+    description: 'Cropped training top with brand logo. Breathable, lightweight, and designed for high-performance workouts. Part of the Women\'s Collection.',
+    benefits: [
+      'Breathable lightweight fabric',
+      'Cropped athletic fit',
+      'Brand logo front',
+      'Perfect for training'
+    ],
+    image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?q=80&w=800&auto=format&fit=crop',
+    category: 'apparel',
+    badge: 'Women\'s Collection'
+  },
+  {
+    id: 'coffee-cup',
+    name: 'Branded Coffee Cup',
+    subtitle: 'Premium Insulated Mug',
+    price: 22,
+    rating: 4.9,
+    reviewsCount: 67,
+    description: 'Premium ceramic coffee cup featuring full brand logo and motivational messaging. "A SIP OF LEGACY IN EVERY CUP!!" Perfect for your morning ritual.',
+    benefits: [
+      'Premium ceramic construction',
+      'Brand logo + motivational saying',
+      'Microwave and dishwasher safe',
+      '12oz capacity'
+    ],
+    image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=800&auto=format&fit=crop',
+    category: 'gear',
+    badge: 'Coffee Collection'
+  },
+  {
+    id: 'coffee-sleeve',
+    name: 'Branded Cup Holder / Sleeve',
+    subtitle: 'Insulated Coffee Sleeve',
+    price: 12,
+    rating: 4.7,
+    reviewsCount: 89,
+    description: 'Reusable neoprene coffee cup sleeve featuring brand logo and "Built Before Sunrise" messaging. Keeps your hands cool and your coffee hot.',
+    benefits: [
+      'Neoprene insulated construction',
+      'Brand logo + Built Before Sunrise',
+      'Reusable and washable',
+      'Fits standard coffee cups'
+    ],
+    image: 'https://images.unsplash.com/photo-1570937400288-4f2c0e2c34c7?q=80&w=800&auto=format&fit=crop',
+    category: 'gear',
+    badge: 'Coffee Collection'
   }
 ];
 
