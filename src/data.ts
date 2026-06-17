@@ -237,42 +237,6 @@ export const PRODUCTS: Product[] = [
     badge: 'Built Before Sunrise'
   },
   {
-    id: 'otm-tee',
-    name: 'OTM Tri-Blend Tee',
-    subtitle: 'Signature Collection - Out The Mud',
-    price: 42,
-    rating: 5.0,
-    reviewsCount: 78,
-    description: 'Premium tri-blend t-shirt from the Signature Collection. Small "Out The Mud" text on upper chest. Back reads "Built not Given!" Crafted for those who earned it from the bottom.',
-    benefits: [
-      'Ultra-soft tri-blend fabric',
-      'Small upper chest "Out The Mud" print',
-      'Back "Built not Given!" statement',
-      'Signature Collection exclusive'
-    ],
-    image: 'https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=800&auto=format&fit=crop',
-    category: 'apparel',
-    badge: 'Signature Collection'
-  },
-  {
-    id: 'otm-hoodie',
-    name: 'OTM Hoodie',
-    subtitle: 'Signature Collection - Out The Mud',
-    price: 88,
-    rating: 5.0,
-    reviewsCount: 63,
-    description: 'Premium heavyweight hoodie from the Signature Collection. Small "Out The Mud" embroidery on upper chest. Back features "Built not Given!" in bold print. For the ones who came from nothing.',
-    benefits: [
-      'Heavyweight 450GSM cotton blend',
-      'Small upper chest "Out The Mud" embroidery',
-      'Back "Built not Given!" bold print',
-      'Signature Collection exclusive'
-    ],
-    image: 'https://images.unsplash.com/photo-1578768079052-aa76e52ff62e?q=80&w=800&auto=format&fit=crop',
-    category: 'apparel',
-    badge: 'Signature Collection'
-  },
-  {
     id: 'bbs-joggers',
     name: 'Built Before Sunrise Joggers',
     subtitle: 'Gym / Running / Training / Weekend Wear',
@@ -379,78 +343,6 @@ export const PRODUCTS: Product[] = [
     image: '/assets/images/Youth Hoodie.png',
     category: 'apparel',
     badge: 'Youth Collection'
-  },
-  {
-    id: 'family-dad-hoodie',
-    name: 'Family Match Dad Hoodie',
-    subtitle: 'Family Collection - Matching Set',
-    price: 85,
-    rating: 5.0,
-    reviewsCount: 31,
-    description: 'Premium heavyweight hoodie for dad. Part of the coordinated family matching set. Features brand logo on chest. Pair with Family Match Joggers and Youth pieces.',
-    benefits: [
-      'Heavyweight 450GSM fleece',
-      'Brand logo chest placement',
-      'Matching family collection set',
-      'Premium quality construction'
-    ],
-    image: '/assets/images/Family Collection.png',
-    category: 'apparel',
-    badge: 'Family Collection'
-  },
-  {
-    id: 'family-dad-joggers',
-    name: 'Family Match Dad Joggers',
-    subtitle: 'Family Collection - Matching Set',
-    price: 62,
-    rating: 4.9,
-    reviewsCount: 25,
-    description: 'Premium joggers for dad. Coordinated matching set with Family Match Dad Hoodie and Youth pieces. Built for comfort and style.',
-    benefits: [
-      'Premium cotton blend fabric',
-      'Elastic cuffs with drawstring waist',
-      'Side pockets',
-      'Matching family collection set'
-    ],
-    image: '/assets/images/Family Collection.png',
-    category: 'apparel',
-    badge: 'Family Collection'
-  },
-  {
-    id: 'family-kids-tee',
-    name: 'Family Match Kids Tee',
-    subtitle: 'Family Collection - Matching Set',
-    price: 22,
-    rating: 4.8,
-    reviewsCount: 18,
-    description: 'Kids t-shirt that matches the Family Collection. Coordinates with Dad hoodie and joggers for the perfect family look.',
-    benefits: [
-      'Soft cotton jersey',
-      'Matching family set design',
-      'Comfortable everyday wear',
-      'Coordinates with Dad pieces'
-    ],
-    image: '/assets/images/Family Collection.png',
-    category: 'apparel',
-    badge: 'Family Collection'
-  },
-  {
-    id: 'family-kids-hoodie',
-    name: 'Family Match Kids Hoodie',
-    subtitle: 'Family Collection - Matching Set',
-    price: 44,
-    rating: 4.9,
-    reviewsCount: 15,
-    description: 'Kids hoodie that matches the Family Collection. Coordinates with Dad hoodie and joggers for coordinated family style.',
-    benefits: [
-      'Soft cotton fleece',
-      'Matching family set design',
-      'Comfortable and warm',
-      'Coordinates with Dad pieces'
-    ],
-    image: '/assets/images/Family Collection.png',
-    category: 'apparel',
-    badge: 'Family Collection'
   },
   {
     id: 'womens-leggings',
