@@ -14,9 +14,8 @@ interface MerchandiseProps {
 }
 
 export default function Merchandise({ products, onAddToCart }: MerchandiseProps) {
-  // Filter products by category, excluding Built Before Sunrise and legacy products
-  const excludeIds = ['bbs-tee', 'bbs-hoodie', 'bbs-joggers', 'bbs-dad-hat', 'bbs-triblend', 'bbs-shorts', 'legend-hoodie', 'athletic-run-cap', 'emerald-tumbler', 'sport-shaker', 'sport-windbreaker', 'aerotech-shorts', 'legend-duffle', 'training-tee'];
-  const gearItems = products.filter(p => (p.category === 'apparel' || p.category === 'gear') && !excludeIds.includes(p.id));
+  // Show all apparel and gear products
+  const gearItems = products.filter(p => p.category === 'apparel' || p.category === 'gear');
   
   // Size selection state for apparel items
   const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>({});
