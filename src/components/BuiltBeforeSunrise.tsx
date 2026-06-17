@@ -43,7 +43,7 @@ export default function BuiltBeforeSunrise({ products, onAddToCart }: BuiltBefor
           className="text-center md:text-left max-w-2xl mb-16 space-y-4"
         >
           <div className="inline-flex items-center space-x-2 bg-brand-charcoal border border-brand-gold/20 rounded-full py-1.5 px-4">
-            <Sunrise className="w-4 h-4 text-brand-gold" />
+            <Sunrise className="w-6 h-6 text-brand-gold" />
             <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-brand-gold font-bold">
               Merch Collection
             </span>
