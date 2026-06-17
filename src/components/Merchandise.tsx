@@ -62,7 +62,7 @@ export default function Merchandise({ products, onAddToCart }: MerchandiseProps)
           {gearItems.map((item) => {
             const isApparel = item.category === 'apparel';
             const selectedSize = selectedSizes[item.id] || 'M';
-            const colSpan = isApparel ? 'lg:col-span-7' : 'lg:col-span-5';
+            const colSpan = 'lg:col-span-6';
             const isAdded = successId === item.id;
 
             return (
