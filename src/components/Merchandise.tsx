@@ -43,6 +43,13 @@ export default function Merchandise({ products, onAddToCart }: MerchandiseProps)
       
       <div className="max-w-7xl mx-auto">
         
+        {/* Section Heading */}
+        <div className="mb-12 text-center md:text-left">
+          <h2 className="font-display font-bold text-4xl md:text-5xl tracking-tight text-brand-charcoal">
+            Merch Collection – <span className="text-brand-emerald">Built Before Sunrise</span>
+          </h2>
+        </div>
+
         {/* Master Showcase Layout: 2-Column Luxury Grid */}
         <motion.div
           initial="hidden"
