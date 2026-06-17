@@ -18,6 +18,7 @@ import { PRODUCTS, TESTIMONIALS, VENTURES, IMPACT_MILESTONES } from './data';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import PopsShowcase from './components/PopsShowcase';
+import BuiltBeforeSunrise from './components/BuiltBeforeSunrise';
 import Merchandise from './components/Merchandise';
 import PortfolioGallery from './components/PortfolioGallery';
 import Services from './components/Services';
@@ -143,6 +144,12 @@ export default function App() {
 
         {/* Asymmetrical Portfolio Visual Magazine Grid */}
         <PortfolioGallery />
+
+        {/* Built Before Sunrise Merch Collection */}
+        <BuiltBeforeSunrise
+          products={PRODUCTS}
+          onAddToCart={handleAddToCart}
+        />
 
         {/* Physical Fitness & Coffee Apparel Gear Droppings */}
         <Merchandise
