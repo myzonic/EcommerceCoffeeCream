@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, ShoppingBag, ArrowRight, Sparkles, Trophy, Coffee, Heart } from 'lucide-react';
+import { Menu, X, ShoppingBag, ArrowRight, Sparkles, Trophy, Diamond, HeartHandshake, Venus, Coffee, Heart } from 'lucide-react';
 import { CartItem } from '../types';
 
 interface NavigationProps {
@@ -20,9 +20,12 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
   const navItems = [
     { id: 'hero', label: 'The Anthem', info: 'Watch the Story Unfold', icon: Sparkles },
-    { id: 'merchandise', label: 'Men Collection', info: 'Built Before Sunrise', icon: Trophy },
-    { id: 'womens-collection', label: 'Women Collection', info: 'Her Edition', icon: Heart },
-    { id: 'ventures', label: 'Ventures', info: 'Future Wellness & Spaces', icon: Coffee },
+    { id: 'merchandise', label: 'Merch Collection', info: 'Built Before Sunrise', icon: Trophy },
+    { id: 'signature-collection', label: 'Signature Collection', info: 'OTM – Out The Mud', icon: Diamond },
+    { id: 'family-collection', label: 'Family Collection', info: 'Built Before Sunrise Family', icon: HeartHandshake },
+    { id: 'womens-collection', label: 'Women Collection', info: 'Her Edition', icon: Venus },
+    { id: 'coffee-collection', label: 'Coffee Collection', info: 'A SIP OF LEGACY IN EVERY CUP!!', icon: Coffee },
+    { id: 'ventures', label: 'Ventures', info: 'Future Wellness & Spaces', icon: Sparkles },
     { id: 'impact', label: 'Donation & Impact', info: 'Building Everyday Legends', icon: Heart },
   ];
 

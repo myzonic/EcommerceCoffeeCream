@@ -347,6 +347,231 @@ export const PRODUCTS: Product[] = [
     image: 'https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=800&auto=format&fit=crop',
     category: 'gear',
     badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'legend-hoodie',
+    name: 'Legend Hoodie',
+    subtitle: 'OTM – Out The Mud Signature Drop',
+    price: 85,
+    rating: 5.0,
+    reviewsCount: 94,
+    description: 'An oversized, exceptionally structured athletic drop crafted from 450GSM double-brushed organic cotton. Embellished with signature gold branding and emerald crest.',
+    benefits: [
+      '450GSM Ultra-Heavy French Terry',
+      'Asymmetrical Box Cut Style Finish',
+      'Metallic Champagne Gold Trim Accents',
+      'Highly Breathable Athletic Knit'
+    ],
+    image: '/assets/images/merchandise_kit_1781457430354.jpg',
+    category: 'apparel',
+    badge: 'OTM Signature Drop'
+  },
+  {
+    id: 'apex-training-tee',
+    name: 'Apex Training Tee',
+    subtitle: 'OTM – Out The Mud Signature Drop',
+    price: 38,
+    rating: 5.0,
+    reviewsCount: 210,
+    description: 'Crafted with next-generation seamless micro-knit fabric designed to respond dynamically to heat and high-intensity workout output. Moves with you, dries instantly.',
+    benefits: [
+      'Optimal Thermal Mapping Ventilation',
+      'Zero Friction Chafing Seams Design',
+      'Antimicrobial Silver-Weave Infusion',
+      'Subtle Emerald and Black Accents'
+    ],
+    image: '/assets/images/training_tee_1781458534604.jpg',
+    category: 'apparel',
+    badge: 'OTM Signature Drop'
+  },
+  {
+    id: 'elite-run-cap',
+    name: 'Elite Run Cap',
+    subtitle: 'OTM – Out The Mud Signature Drop',
+    price: 32,
+    rating: 4.9,
+    reviewsCount: 68,
+    description: 'An elite running cap optimized for high-temperature cardiovascular regimes. Water-shedding aerodynamic nylon with ventilation mesh channels and antimicrobial headband.',
+    benefits: [
+      'Aerodynamic Laser-Cut Ventilation Ports',
+      'Waterproof Ripstop Stretch Nylon Shell',
+      'High-contrast Reflective Gold Branding',
+      'Adjustable Magnetic Crown Enclosure'
+    ],
+    image: '/assets/images/athletic_run_cap_1781458182440.jpg',
+    category: 'apparel',
+    badge: 'OTM Signature Drop'
+  },
+  {
+    id: 'elite-windbreaker',
+    name: 'Elite Run Windbreaker',
+    subtitle: 'OTM – Out The Mud Signature Drop',
+    price: 110,
+    rating: 4.9,
+    reviewsCount: 82,
+    description: 'Exceptionally lightweight windbreaker jacket for unpredictable weather. Dynamic water-repellent performance fabric with ventilation heat-escapes and headphone routing.',
+    benefits: [
+      'Tactical Champagne Gold Minimalist Trims',
+      'Wind-Shedding Ultra-Stretch Composition',
+      'Stashable Pack-Away Hood Implementation',
+      'Reflective Safety Slogan Prints'
+    ],
+    image: '/assets/images/sport_windbreaker_1781458465773.jpg',
+    category: 'apparel',
+    badge: 'OTM Signature Drop'
+  },
+  {
+    id: 'aerotech-shorts',
+    name: 'AeroTech Shorts',
+    subtitle: 'OTM – Out The Mud Signature Drop',
+    price: 48,
+    rating: 4.8,
+    reviewsCount: 95,
+    description: 'Designed for heavy training loads. Seamless internal compression layer with ultra-lightweight water-repellent stretch fabric. Anti-chafe, fast-dry, and secure.',
+    benefits: [
+      'Anti-Chafing Active Compression Liner',
+      'Secure Zippered Key & Card Back Slots',
+      'Moisture-Wicking Fast Dry-Shield Fabric',
+      'Matte Black & Raw Sand Contrast Theme'
+    ],
+    image: '/assets/images/aerotech_shorts_1781458491774.jpg',
+    category: 'apparel',
+    badge: 'OTM Signature Drop'
+  },
+  {
+    id: 'legend-duffle',
+    name: 'Legend Duffle Bag',
+    subtitle: 'OTM – Out The Mud Signature Drop',
+    price: 95,
+    rating: 4.9,
+    reviewsCount: 130,
+    description: 'The ultimate carry companion pairing early dawn workouts with late-night executive sessions. Heavy-duty water-resistant ballistic nylon with custom gold hardware.',
+    benefits: [
+      'Separate Wet/Dry Vent Compartment',
+      'Laptop & Tech Guard Neoprene Sleeve',
+      'Indestructible Gold Zipper Fastenings',
+      'Ergonomic High-Comfort Shoulder Strap'
+    ],
+    image: '/assets/images/legend_duffle_bag_1781458513453.jpg',
+    category: 'gear',
+    badge: 'OTM Signature Drop'
+  },
+  {
+    id: 'pops-430',
+    name: "POPS 4:30AM",
+    subtitle: 'The Legend Fuel Dark Roast',
+    price: 28,
+    rating: 4.9,
+    reviewsCount: 342,
+    description: 'Our crown jewel. Formulated for early risers, elite athletes, and high-performing human beings. POPS 4:30AM is a heavy, slow-roasted single-origin blend engineered to unlock sustained focus without the acidic crash.',
+    benefits: [
+      'Unlocks 6+ Hours of Clean Focus',
+      'Infused with L-Theanine Adaptogens',
+      'Zero Acidity or Stomach Jitters',
+      'Heavy Dark Chocolate & Volcanic Soil Notes'
+    ],
+    ingredients: [
+      { name: 'Somatic Focus Blend', value: 'Volcanic Soil Arabica Infused', icon: 'Brain' },
+      { name: 'Organic Roasting Code', value: 'Slow double carbon-monitored', icon: 'Flame' },
+      { name: 'Athletic Adaptogens', value: 'Subtle clean recovery profiles', icon: 'Zap' }
+    ],
+    image: '/assets/images/Coffee Blend Packaging.png',
+    category: 'coffee',
+    badge: 'Coffee Collection'
+  },
+  {
+    id: 'golden-blend',
+    name: "NaomiRae's Golden Blend",
+    subtitle: 'Champagne Sweet Blonde Espresso',
+    price: 26,
+    rating: 4.8,
+    reviewsCount: 189,
+    description: 'An elegant, bright roasting masterpiece highlighting caramelized sugars and sweet stone fruit. Sourced with meticulous precision for those who brew to create, design, and lead.',
+    benefits: [
+      'Instant Energy & Mood Elevation',
+      'Elegant Caramelized Peach Notes',
+      'Vibrant Antioxidant Clean Profile',
+      'Outstanding as Cold Brew & Espresso'
+    ],
+    ingredients: [
+      { name: 'Peach & Toffee Finish', value: 'High caramelization profiling', icon: 'Sunset' },
+      { name: 'Ambassador Grade', value: 'Top 1.5% of world crops', icon: 'Crown' }
+    ],
+    image: '/assets/images/Coffee Blend Packaging.png',
+    category: 'coffee',
+    badge: 'Coffee Collection'
+  },
+  {
+    id: 'carbon-tumbler',
+    name: 'Carbon Tumbler',
+    subtitle: 'Coffee Collection Essentials',
+    price: 36,
+    rating: 4.9,
+    reviewsCount: 112,
+    description: 'A matte thermal flask built for elite fitness regimes and workspace environments. Premium food-grade steel with leak-guard magnetic seals and double-walled copper insulation.',
+    benefits: [
+      '12 Hours Heat / 24 Hours Cold Lock',
+      'Zero Condensation Grit Finish',
+      'Signature Emerald Green Polish Coat',
+      'Indestructible Double Wall Steel'
+    ],
+    image: 'https://images.unsplash.com/photo-1577937927133-66ef06acdf18?q=80&w=800&auto=format&fit=crop',
+    category: 'gear',
+    badge: 'Coffee Collection'
+  },
+  {
+    id: 'sport-shaker',
+    name: 'Magnetic Sport Shaker',
+    subtitle: 'Coffee Collection Essentials',
+    price: 42,
+    rating: 5.0,
+    reviewsCount: 147,
+    description: 'The ultimate athletic coffee shaking experience. Double-walled stainless steel with leak-proof ergonomic handle, magnetic latch closure, and internal steel mixing sphere.',
+    benefits: [
+      'Silent Heavy-Duty Agitation Grid',
+      'Leakproof Magnetic Lid Locking',
+      'Scratch-resistant Powder-coated Polish',
+      'Perfect for Iced Coffee & Post-Run Shakes'
+    ],
+    image: '/assets/images/thermal_sport_shaker_1781458205534.jpg',
+    category: 'gear',
+    badge: 'Coffee Collection'
+  },
+  {
+    id: 'coffee-cup',
+    name: 'Branded Coffee Cup',
+    subtitle: 'Coffee Collection Essentials',
+    price: 22,
+    rating: 4.9,
+    reviewsCount: 67,
+    description: 'Premium ceramic coffee cup featuring full brand logo. "A SIP OF LEGACY IN EVERY CUP!!" Perfect for your morning ritual. Microwave and dishwasher safe.',
+    benefits: [
+      'Premium ceramic construction',
+      'Brand logo + motivational saying',
+      'Microwave and dishwasher safe',
+      '12oz capacity'
+    ],
+    image: '/assets/images/Coffee Cup.png',
+    category: 'gear',
+    badge: 'Coffee Collection'
+  },
+  {
+    id: 'coffee-sleeve',
+    name: 'Branded Coffee Sleeve',
+    subtitle: 'Coffee Collection Essentials',
+    price: 12,
+    rating: 4.7,
+    reviewsCount: 89,
+    description: 'Reusable neoprene coffee cup sleeve featuring brand logo and "Built Before Sunrise" messaging. Keeps your hands cool and your coffee hot.',
+    benefits: [
+      'Neoprene insulated construction',
+      'Brand logo + Built Before Sunrise',
+      'Reusable and washable',
+      'Fits standard coffee cups'
+    ],
+    image: '/assets/images/Coffee Subscription.png',
+    category: 'gear',
+    badge: 'Coffee Collection'
   }
 ];
 

@@ -18,7 +18,10 @@ import { PRODUCTS, TESTIMONIALS, VENTURES, IMPACT_MILESTONES } from './data';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Merchandise from './components/Merchandise';
+import SignatureCollection from './components/SignatureCollection';
+import FamilyCollection from './components/FamilyCollection';
 import WomenCollection from './components/WomenCollection';
+import CoffeeCollection from './components/CoffeeCollection';
 import PortfolioGallery from './components/PortfolioGallery';
 import Services from './components/Services';
 import WhyChoose from './components/WhyChoose';
@@ -38,7 +41,7 @@ export default function App() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 500);
 
-      const sections = ['hero', 'merchandise', 'womens-collection', 'ventures', 'impact'];
+      const sections = ['hero', 'merchandise', 'signature-collection', 'family-collection', 'womens-collection', 'coffee-collection', 'ventures', 'impact'];
       const scrollPos = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -138,14 +141,32 @@ export default function App() {
         {/* Asymmetrical Portfolio Visual Magazine Grid */}
         <PortfolioGallery />
 
-        {/* Physical Fitness & Coffee Apparel Gear Droppings */}
+        {/* MERCH COLLECTION – Built Before Sunrise */}
         <Merchandise
           products={PRODUCTS}
           onAddToCart={handleAddToCart}
         />
 
-        {/* Women's Collection */}
+        {/* SIGNATURE COLLECTION (OTM – Out The Mud) */}
+        <SignatureCollection
+          products={PRODUCTS}
+          onAddToCart={handleAddToCart}
+        />
+
+        {/* FAMILY COLLECTION */}
+        <FamilyCollection
+          products={PRODUCTS}
+          onAddToCart={handleAddToCart}
+        />
+
+        {/* WOMEN'S COLLECTION */}
         <WomenCollection
+          products={PRODUCTS}
+          onAddToCart={handleAddToCart}
+        />
+
+        {/* COFFEE COLLECTION */}
+        <CoffeeCollection
           products={PRODUCTS}
           onAddToCart={handleAddToCart}
         />
