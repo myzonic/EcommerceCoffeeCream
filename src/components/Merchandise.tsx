@@ -18,8 +18,11 @@ export default function Merchandise({ products, onAddToCart }: MerchandiseProps)
       <div className="max-w-7xl mx-auto">
         <div className="mb-12 text-center md:text-left">
           <h2 className="font-display font-bold text-4xl md:text-5xl tracking-tight text-brand-charcoal">
-            MERCH COLLECTION – <span className="text-brand-emerald">Built Before Sunrise</span>
+            Built Before Sunrise <span className="text-brand-emerald">Collection</span>
           </h2>
+          <p className="font-mono text-xs text-brand-charcoal/60 uppercase tracking-widest mt-2">
+            Gym / Running / Training / Weekend Wear • Coffee after workout.
+          </p>
         </div>
 
         <motion.div
