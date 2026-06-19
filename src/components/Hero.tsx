@@ -27,11 +27,11 @@ export default function Hero({ onScrollToSection }: HeroProps) {
           <div className="inline-flex items-center space-x-2 bg-brand-charcoal/50 border border-brand-emerald/30 backdrop-blur-md rounded-full py-2 px-6 mb-8">
             <Sparkles className="w-4 h-4 text-brand-emerald animate-pulse" />
             <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-brand-pearl font-bold">
-              SweetNaomiRae’s Lifestyle Anthem
+              SweetNaomiRae’s Coffee & More
             </span>
           </div>
           
-          <h1 className="font-display font-bold text-5xl md:text-8xl tracking-tight text-white mb-6 leading-none">
+          <h1 className="font-display font-bold text-4xl sm:text-6xl md:text-8xl tracking-tight text-white mb-6 leading-none">
             Built Before <span className="text-brand-emerald italic">Sunrise.</span>
           </h1>
           
