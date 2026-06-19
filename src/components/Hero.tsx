@@ -31,13 +31,14 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             </span>
           </div>
           
-          <h1 className="font-display font-bold text-4xl sm:text-6xl md:text-8xl tracking-tight text-white mb-6 leading-none">
-            Built Before <span className="text-brand-emerald italic">Sunrise.</span>
+          <h1 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl tracking-tight text-white mb-6 leading-tight">
+            Built Before Sunrise<br />
+            Rooted in FAMILY.<br />
+            Fueled by purpose.<br />
+            <span className="text-brand-emerald italic">A SIP OF LEGACY IN EVERY CUP!!</span>
           </h1>
           
-          <p className="text-brand-sand text-lg md:text-xl max-w-2xl mx-auto mb-12 font-light leading-relaxed">
-            Premium coffee, performance apparel, and family-driven culture. An anthem for the early risers, the goal-chasers, and the everyday legends.
-          </p>
+          <div className="mb-12"></div>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <button 
