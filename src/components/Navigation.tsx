@@ -64,9 +64,9 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
           {/* Slogan pill (Desktop only) */}
           <div className="hidden lg:flex items-center space-x-2 bg-brand-beige/50 border border-brand-sand/50 rounded-full py-1 px-3.5">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-emerald animate-pulse"></span>
-            <span className="font-mono text-[10px] uppercase tracking-wider text-brand-charcoal/75 font-medium">
-              A member of the Verde Harvest Holdings family
-            </span>
+              <span className="font-mono text-[10px] uppercase tracking-wider text-brand-charcoal/75 font-medium">
+                SweetNaomiRae’s Coffee & More
+              </span>
           </div>
 
           {/* Right Controls */}
@@ -201,7 +201,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
             {/* Bottom bar of overlay */}
             <div className="max-w-7xl mx-auto w-full border-t border-brand-gold/10 pt-6 mt-8 flex flex-col md:flex-row items-center justify-between z-10 text-brand-sand/55 text-xs font-mono">
-              <p>© 2026 SweetNaomiRae’s Coffee & More. A member of the Verde Harvest Holdings family. All rights reserved.</p>
+              <p>© 2026 SweetNaomiRae’s Coffee & More. All rights reserved.</p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#hero" onClick={() => handleLinkClick('hero')} className="hover:text-white transition-colors">The Anthem</a>
                 <a href="#flagship" onClick={() => handleLinkClick('flagship')} className="hover:text-white transition-colors">Roast Details</a>
