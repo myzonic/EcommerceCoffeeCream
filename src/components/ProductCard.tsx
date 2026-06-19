@@ -10,7 +10,7 @@ type ProductCardProps = {
   sizeLabel?: string;
 } & React.Attributes;
 
-export default function ProductCard({ product, onAddToCart, sizes = ['S', 'M', 'L', 'XL'], sizeLabel = 'Select Fit Dimension' }: ProductCardProps) {
+export default function ProductCard({ product, onAddToCart, sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL'], sizeLabel = 'Select Size' }: ProductCardProps) {
   const [selectedSize, setSelectedSize] = useState('M');
   const [isAdded, setIsAdded] = useState(false);
 

@@ -23,7 +23,9 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
     { id: 'merchandise', label: 'Merch Collection', info: 'Built Before Sunrise', icon: Trophy },
     { id: 'signature-collection', label: 'Signature Collection', info: 'OTM – Out The Mud', icon: Diamond },
     { id: 'family-collection', label: 'Family Collection', info: 'Built Before Sunrise Family', icon: HeartHandshake },
-    { id: 'womens-collection', label: 'Women Collection', info: 'Her Edition', icon: Venus },
+    { id: 'womens-collection', label: 'Naomi Rae Collection', info: 'Strong. Graceful. Unstoppable.', icon: Venus },
+    { id: 'little-legends', label: 'Little Legends', info: 'For the next generation.', icon: Heart },
+    { id: 'otm-gear', label: 'OTM Gear', info: 'Out The Mud Collection', icon: Sparkles },
     { id: 'coffee-collection', label: 'Coffee Collection', info: 'A SIP OF LEGACY IN EVERY CUP!!', icon: Coffee },
     { id: 'ventures', label: 'Ventures', info: 'Future Wellness & Spaces', icon: Sparkles },
     { id: 'impact', label: 'Donation & Impact', info: 'Building Everyday Legends', icon: Heart },
@@ -54,7 +56,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
           >
             <img
               src="/logo.png"
-              alt="Verde Harvest Holdings Corp"
+              alt="SweetNaomiRae's Coffee & More"
               className="h-16 md:h-20 w-auto object-contain"
             />
           </button>
@@ -63,7 +65,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
           <div className="hidden lg:flex items-center space-x-2 bg-brand-beige/50 border border-brand-sand/50 rounded-full py-1 px-3.5">
             <span className="w-1.5 h-1.5 rounded-full bg-brand-emerald animate-pulse"></span>
             <span className="font-mono text-[10px] uppercase tracking-wider text-brand-charcoal/75 font-medium">
-              A Legendary Sip in Every Cup
+              A member of the Verde Harvest Holdings family
             </span>
           </div>
 
@@ -199,7 +201,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
             {/* Bottom bar of overlay */}
             <div className="max-w-7xl mx-auto w-full border-t border-brand-gold/10 pt-6 mt-8 flex flex-col md:flex-row items-center justify-between z-10 text-brand-sand/55 text-xs font-mono">
-              <p>© 2026 SweetNaomiRae’s. All rights reserved.</p>
+              <p>© 2026 SweetNaomiRae’s Coffee & More. A member of the Verde Harvest Holdings family. All rights reserved.</p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#hero" onClick={() => handleLinkClick('hero')} className="hover:text-white transition-colors">The Anthem</a>
                 <a href="#flagship" onClick={() => handleLinkClick('flagship')} className="hover:text-white transition-colors">Roast Details</a>

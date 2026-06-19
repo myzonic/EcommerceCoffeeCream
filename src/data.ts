@@ -44,17 +44,17 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'bbs-joggers',
-    name: 'Built Before Sunrise Joggers',
-    subtitle: 'Gym / Running / Training / Weekend Wear',
+    name: 'Built Before Sunrise Performance Joggers',
+    subtitle: 'Tapered Athletic Fit',
     price: 62,
     rating: 4.9,
     reviewsCount: 38,
-    description: 'Premium athletic joggers engineered for pre-dawn runs and post-workout recovery. Built with moisture-wicking fabric and an elastic cuffed hem. Coffee after workout lifestyle.',
+    description: 'Elite performance joggers featuring a tapered ankle, slim athletic fit, drawstring waistband, and deep side storage pockets. Engineered with moisture-wicking, four-way stretch fabric for training, running, and recovery.',
     benefits: [
-      'Moisture-wicking performance fabric',
-      'Elastic cuffed hem with zippered pockets',
+      'Moisture-wicking four-way stretch fabric',
+      'Tapered ankle with slim athletic fit',
       'Adjustable drawstring waistband',
-      'Built Before Sunrise branding'
+      'Deep side storage pockets for essentials'
     ],
     image: '/assets/images/Men\'s Joggers.png',
     category: 'apparel',
@@ -115,40 +115,72 @@ export const PRODUCTS: Product[] = [
     badge: 'Built Before Sunrise'
   },
   {
-    id: 'youth-tee',
-    name: 'Youth Built Before Sunrise Tee',
-    subtitle: 'Kids Collection',
+    id: 'little-tee',
+    name: 'Kids Logo Tee',
+    subtitle: 'Little Legends Collection',
     price: 24,
-    rating: 4.9,
-    reviewsCount: 27,
-    description: 'Youth t-shirt featuring "Built Before Sunrise" on back and V.H.H.C. on sleeve. Matching family collection piece for the next generation of legends.',
+    rating: 5.0,
+    reviewsCount: 15,
+    description: 'Premium, soft-touch cotton tee featuring a minimal, clean logo on the upper chest. Designed for everyday comfort and play.',
     benefits: [
-      'Soft ringspun cotton',
-      'Back: "Built Before Sunrise" print',
-      'Sleeve: V.H.H.C. logo',
-      'Matching family collection'
+      'Minimalist upper chest logo',
+      'Ultra-soft premium cotton',
+      'Durable for active play',
+      'Little Legends Collection'
     ],
-    image: '/assets/images/Youth Tee.png',
     category: 'apparel',
-    badge: 'Youth Collection'
+    badge: 'Little Legends'
   },
   {
-    id: 'youth-hoodie',
-    name: 'Youth Built Before Sunrise Hoodie',
-    subtitle: 'Kids Collection',
-    price: 48,
-    rating: 4.9,
-    reviewsCount: 22,
-    description: 'Youth hoodie featuring "Built Before Sunrise" on back and V.H.H.C. on sleeve. Warm, comfortable fleece for the young ones who rise early.',
+    id: 'little-hoodie',
+    name: 'Kids Hoodie',
+    subtitle: 'Little Legends Collection',
+    price: 45,
+    rating: 5.0,
+    reviewsCount: 12,
+    description: 'Clean, comfortable fleece hoodie with a small upper-chest logo. Perfect for early morning starts and family outings.',
     benefits: [
-      'Soft cotton blend fleece',
-      'Back: "Built Before Sunrise" print',
-      'Sleeve: V.H.H.C. logo',
-      'Matching family collection'
+      'Clean upper-chest logo',
+      'Comfortable premium fleece',
+      'Durable construction',
+      'Little Legends Collection'
     ],
-    image: '/assets/images/Youth Hoodie.png',
     category: 'apparel',
-    badge: 'Youth Collection'
+    badge: 'Little Legends'
+  },
+  {
+    id: 'little-joggers',
+    name: 'Youth Joggers',
+    subtitle: 'Little Legends Collection',
+    price: 35,
+    rating: 4.9,
+    reviewsCount: 20,
+    description: 'Lightweight, athletic-fit joggers with a minimal side logo. Designed for active kids with comfort and movement in mind.',
+    benefits: [
+      'Minimal side-leg logo',
+      'Breathable athletic fabric',
+      'Elastic waistband & cuffs',
+      'Little Legends Collection'
+    ],
+    category: 'apparel',
+    badge: 'Little Legends'
+  },
+  {
+    id: 'little-shorts',
+    name: 'Youth Athletic Shorts',
+    subtitle: 'Little Legends Collection',
+    price: 28,
+    rating: 4.9,
+    reviewsCount: 18,
+    description: 'Durable, quick-dry shorts for sports and play. Minimalist branding with an athletic cut.',
+    benefits: [
+      'Minimalist branding',
+      'Quick-dry performance fabric',
+      'Comfortable active cut',
+      'Little Legends Collection'
+    ],
+    category: 'apparel',
+    badge: 'Little Legends'
   },
   {
     id: 'womens-leggings',
@@ -271,17 +303,102 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'naomi-leggings',
-    name: 'Naomi Rae Signature Leggings',
+    name: 'Signature Leggings',
     subtitle: 'The Naomi Rae Collection',
     price: 68,
     rating: 5.0,
     reviewsCount: 21,
-    description: 'Signature leggings from The Naomi Rae Collection. Premium high-waisted design with gold tone accents. Strong. Graceful. Unstoppable.',
+    description: 'Signature high-waisted performance leggings from The Naomi Rae Collection. Features 4-way stretch, squat-proof fabric, and gold-tone accents. Strong. Graceful. Unstoppable.',
     benefits: [
-      'High-waisted premium fit',
-      'Gold tone accent details',
-      'The Naomi Rae Collection',
-      'Strong. Graceful. Unstoppable.'
+      'High-waisted compression fit',
+      'Squat-proof performance fabric',
+      'Gold-tone accent details',
+      'Available in XS - XXXL'
+    ],
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-sculpt-shorts',
+    name: 'Sculpt Shorts',
+    subtitle: 'The Naomi Rae Collection',
+    price: 42,
+    rating: 4.9,
+    reviewsCount: 15,
+    description: 'High-performance sculpt shorts engineered for mobility and comfort. Designed for high-intensity training. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Engineered for maximum mobility',
+      'High-performance fabric',
+      'Elegant contoured fit',
+      'Available in XS - XXXL'
+    ],
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-luxe-zip',
+    name: 'Luxe Zip Hoodie',
+    subtitle: 'The Naomi Rae Collection',
+    price: 88,
+    rating: 5.0,
+    reviewsCount: 18,
+    description: 'Premium heavyweight luxury zip hoodie with gold-tone hardware. The ultimate layer for before and after training. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Premium heavyweight fleece',
+      'Gold-tone metal hardware',
+      'Relaxed athletic fit',
+      'Available in XS - XXXL'
+    ],
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-perf-quarterzip',
+    name: 'Performance Quarter Zip',
+    subtitle: 'The Naomi Rae Collection',
+    price: 52,
+    rating: 4.9,
+    reviewsCount: 22,
+    description: 'Lightweight, moisture-wicking performance quarter-zip with an elegant silhouette. Perfect for training and lifestyle. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Lightweight performance fabric',
+      'Elegant quarter-zip design',
+      'Moisture-wicking technology',
+      'Available in XS - XXXL'
+    ],
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-relaxed-joggers',
+    name: 'Relaxed Joggers',
+    subtitle: 'The Naomi Rae Collection',
+    price: 65,
+    rating: 4.9,
+    reviewsCount: 19,
+    description: 'Premium relaxed-fit joggers with a tapered ankle and ultra-soft fabric. Designed for recovery and effortless style. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Relaxed yet tapered silhouette',
+      'Ultra-soft performance fabric',
+      'Drawstring waistband',
+      'Available in XS - XXXL'
+    ],
+    category: 'apparel',
+    badge: 'The Naomi Rae Collection'
+  },
+  {
+    id: 'naomi-crop-tee',
+    name: 'Crop Tee',
+    subtitle: 'The Naomi Rae Collection',
+    price: 32,
+    rating: 4.8,
+    reviewsCount: 25,
+    description: 'Breathable, elegant crop tee for everyday training. Features a modern athletic cut. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Modern athletic crop fit',
+      'Breathable performance cotton',
+      'Minimalist branding',
+      'Available in XS - XXXL'
     ],
     category: 'apparel',
     badge: 'The Naomi Rae Collection'
@@ -338,6 +455,23 @@ export const PRODUCTS: Product[] = [
     badge: 'The Naomi Rae Collection'
   },
   {
+    id: 'otm-joggers',
+    name: 'OTM Performance Joggers',
+    subtitle: 'Tapered Streetwear Performance',
+    price: 88,
+    rating: 5.0,
+    reviewsCount: 72,
+    description: 'Our pinnacle performance pant. Featuring a precision tapered ankle, slim athletic fit, and structured technical fabric. Inspired by industry-leading performance gear, designed to move with you through every grind.',
+    benefits: [
+      'Precision tapered ankle, slim athletic fit',
+      'Technical four-way stretch performance fabric',
+      'Secure drawstring waist & side pockets',
+      'OTM – Out The Mud Collection'
+    ],
+    category: 'apparel',
+    badge: 'OTM – Out The Mud'
+  },
+  {
     id: 'otm-hoodie',
     name: 'OTM (Out The Mud) Hoodie',
     subtitle: 'OTM – Out The Mud',
@@ -355,17 +489,51 @@ export const PRODUCTS: Product[] = [
     badge: 'OTM – Out The Mud'
   },
   {
-    id: 'otm-tee',
-    name: 'OTM (Out The Mud) T-Shirt',
+    id: 'otm-zip-hoodie',
+    name: 'OTM Performance Zip Hoodie',
     subtitle: 'OTM – Out The Mud',
-    price: 34,
+    price: 92,
     rating: 5.0,
-    reviewsCount: 210,
-    description: 'A premium heavyweight tee from the OTM – Out The Mud collection. Crafted from ringspun cotton with a relaxed athletic fit and signature gold branding. Built for those who rise before the sun.',
+    reviewsCount: 48,
+    description: 'A structured performance zip-up engineered for training and active recovery. Features gold-trimmed hardware, ergonomic hood design, and technical performance fleece.',
     benefits: [
-      'Premium Ringspun Cotton Construction',
-      'Relaxed Athletic Fit Design',
-      'Signature Gold Branding',
+      'Technical performance fleece',
+      'Gold-trimmed metal hardware',
+      'Ergonomic hood & zip entry',
+      'OTM – Out The Mud Collection'
+    ],
+    category: 'apparel',
+    badge: 'OTM – Out The Mud'
+  },
+  {
+    id: 'otm-perf-hoodie',
+    name: 'OTM Performance Hoodie',
+    subtitle: 'OTM – Out The Mud',
+    price: 88,
+    rating: 5.0,
+    reviewsCount: 55,
+    description: 'A streamlined athletic-fit hoodie focused on mobility and thermal regulation. Built for training in cool environments.',
+    benefits: [
+      'Streamlined athletic fit',
+      'Thermal regulation fabric',
+      'Signature emerald crest',
+      'OTM – Out The Mud Collection'
+    ],
+    category: 'apparel',
+    badge: 'OTM – Out The Mud'
+  },
+  {
+    id: 'otm-flex-shorts',
+    name: 'OTM Flex Shorts',
+    subtitle: 'OTM – Out The Mud',
+    price: 45,
+    rating: 4.9,
+    reviewsCount: 65,
+    description: 'Ultra-lightweight performance shorts with four-way stretch and moisture-wicking technology. Built for intense high-intensity training.',
+    benefits: [
+      'Four-way stretch agility fabric',
+      'Moisture-wicking athletic design',
+      'Elastic waist & secure pockets',
       'OTM – Out The Mud Collection'
     ],
     category: 'apparel',
@@ -538,8 +706,8 @@ export const TESTIMONIALS: Testimonial[] = [
 export const VENTURES: Venture[] = [
   {
     id: 'v1',
-    title: "SweetNaomiRae's Coffee & More powered by V.H.H.C.",
-    description: 'Our upcoming physical lifestyle sanctuary. Blending a high-performance biometric bio-hacking lounge, recovery pods, organic roastery, and run-club clubhouses.',
+    title: "SweetNaomiRae's Coffee & More",
+    description: 'Our upcoming physical lifestyle sanctuary. Blending a high-performance biometric bio-hacking lounge, recovery pods, organic roastery, and run-club clubhouses. Proudly part of the Verde Harvest Holdings family.',
     status: 'Launch Partner',
     icon: 'Compass',
     tagline: 'Physical Expansion'

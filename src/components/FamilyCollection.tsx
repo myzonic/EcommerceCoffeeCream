@@ -50,7 +50,7 @@ export default function FamilyCollection({ products, onAddToCart }: FamilyCollec
           className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12"
         >
           {familyItems.map((item) => (
-            <ProductCard key={item.id} product={item} onAddToCart={onAddToCart} sizes={['XS', 'S', 'M', 'L', 'XL']} sizeLabel="Select Size" />
+            <ProductCard key={item.id} product={item} onAddToCart={onAddToCart} sizes={['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL']} sizeLabel="Select Size" />
           ))}
         </motion.div>
       </div>

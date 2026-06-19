@@ -51,7 +51,13 @@ export default function SignatureCollection({ products, onAddToCart }: Signature
           className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-12"
         >
           {otmItems.map((item) => (
-            <ProductCard key={item.id} product={item} onAddToCart={onAddToCart} />
+            <ProductCard
+              key={item.id}
+              product={item}
+              onAddToCart={onAddToCart}
+              sizes={['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL']}
+              sizeLabel="Select Size"
+            />
           ))}
         </motion.div>
       </div>

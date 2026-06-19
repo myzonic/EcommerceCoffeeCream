@@ -28,14 +28,18 @@ export default function CoffeeCollection({ products, onAddToCart }: CoffeeCollec
           <div className="inline-flex items-center space-x-2 bg-brand-charcoal border border-brand-gold/20 rounded-full py-1.5 px-4">
             <Coffee className="w-5 h-5 text-brand-gold" />
             <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-brand-gold font-bold">
-              Coffee Collection
+              Built Before Sunrise Collection
             </span>
           </div>
           <h2 className="font-display font-bold text-4xl md:text-5xl tracking-tight text-brand-charcoal leading-tight">
-            A SIP OF LEGACY <span className="text-brand-emerald">IN EVERY CUP!!</span>
+            SweetNaomiRae's Coffee & More
           </h2>
-          <p className="font-sans text-brand-charcoal/70 text-sm leading-relaxed max-w-xl">
-            Premium small-batch coffee and essential brewing gear. Engineered for the relentless.
+          <div className="flex flex-col space-y-1">
+            <span className="text-xl font-medium text-brand-emerald">POPS 4:30AM</span>
+            <span className="text-sm uppercase tracking-widest text-brand-charcoal/60">Built Before Sunrise Collection</span>
+          </div>
+          <p className="font-sans text-brand-charcoal/70 text-sm leading-relaxed max-w-xl mt-4">
+            Premium small-batch coffee. Proudly crafted by the VHHC Family. Engineered for the relentless.
           </p>
         </motion.div>
 
