@@ -707,7 +707,7 @@ export const VENTURES: Venture[] = [
   {
     id: 'v1',
     title: "SweetNaomiRae's Coffee & More",
-    description: 'Our upcoming physical lifestyle sanctuary. Blending a high-performance biometric bio-hacking lounge, recovery pods, organic roastery, and run-club clubhouses. Proudly part of the Verde Harvest Holdings family.',
+    description: 'Our upcoming physical lifestyle sanctuary. Blending a high-performance biometric bio-hacking lounge, recovery pods, organic roastery, and run-club clubhouses. Proudly a SweetNaomiRae’s Coffee & More project.',
     status: 'Launch Partner',
     icon: 'Compass',
     tagline: 'Physical Expansion'

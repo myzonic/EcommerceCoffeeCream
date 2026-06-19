@@ -39,7 +39,7 @@ export default function CoffeeCollection({ products, onAddToCart }: CoffeeCollec
             <span className="text-sm uppercase tracking-widest text-brand-charcoal/60">Built Before Sunrise Collection</span>
           </div>
           <p className="font-sans text-brand-charcoal/70 text-sm leading-relaxed max-w-xl mt-4">
-            Premium small-batch coffee. Proudly crafted by the VHHC Family. Engineered for the relentless.
+            Premium small-batch coffee. A SweetNaomiRae’s Coffee & More Signature Collection. Engineered for the relentless.
           </p>
         </motion.div>
 
