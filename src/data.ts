@@ -20,7 +20,7 @@ export const PRODUCTS: Product[] = [
       'Moisture-wicking fabric technology',
       'Built Before Sunrise front branding'
     ],
-    image: '/assets/images/Performance Tee.png',
+    image: '',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -38,7 +38,7 @@ export const PRODUCTS: Product[] = [
       'Kangaroo pocket with media channel',
       'Built Before Sunrise back print'
     ],
-    image: '/assets/images/Premium Hoodie.png',
+    image: '',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -56,7 +56,7 @@ export const PRODUCTS: Product[] = [
       'Adjustable drawstring waistband',
       'Deep side storage pockets for essentials'
     ],
-    image: '/assets/images/Men\'s Joggers.png',
+    image: '',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -74,7 +74,7 @@ export const PRODUCTS: Product[] = [
       'Curved pre-shopped brim',
       'Adjustable snapback closure'
     ],
-    image: '/assets/images/Dad Hat.png',
+    image: '',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -92,7 +92,7 @@ export const PRODUCTS: Product[] = [
       'Built Before Sunrise front print',
       'Versatile training to casual wear'
     ],
-    image: '/assets/images/T shirt.png',
+    image: '',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -110,7 +110,7 @@ export const PRODUCTS: Product[] = [
       'Zippered security pocket',
       'Built Before Sunrise branding'
     ],
-    image: '/assets/images/Athletic Shorts.png',
+    image: '',
     category: 'apparel',
     badge: 'Built Before Sunrise'
   },
@@ -575,7 +575,7 @@ export const PRODUCTS: Product[] = [
       { name: 'Organic Roasting Code', value: 'Slow double carbon-monitored', icon: 'Flame' },
       { name: 'Athletic Adaptogens', value: 'Subtle clean recovery profiles', icon: 'Zap' }
     ],
-    image: '/assets/images/Coffee Blend Packaging.png',
+    image: '',
     category: 'coffee',
     badge: 'Coffee Collection'
   },
@@ -597,7 +597,7 @@ export const PRODUCTS: Product[] = [
       { name: 'Peach & Toffee Finish', value: 'High caramelization profiling', icon: 'Sunset' },
       { name: 'Ambassador Grade', value: 'Top 1.5% of world crops', icon: 'Crown' }
     ],
-    image: '/assets/images/Coffee Blend Packaging.png',
+    image: '',
     category: 'coffee',
     badge: 'Coffee Collection'
   },
@@ -649,7 +649,7 @@ export const PRODUCTS: Product[] = [
       'Microwave and dishwasher safe',
       '12oz capacity'
     ],
-    image: '/assets/images/Coffee Cup.png',
+    image: '',
     category: 'gear',
     badge: 'Coffee Collection'
   },
@@ -667,7 +667,7 @@ export const PRODUCTS: Product[] = [
       'Reusable and washable',
       'Fits standard coffee cups'
     ],
-    image: '/assets/images/Coffee Subscription.png',
+    image: '',
     category: 'gear',
     badge: 'Coffee Collection'
   }
