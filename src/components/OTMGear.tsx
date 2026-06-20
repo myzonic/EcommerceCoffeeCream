@@ -26,14 +26,14 @@ export default function OTMGear({ products, onAddToCart }: OTMCearProps) {
         >
           <div className="inline-flex items-center space-x-2 border border-brand-emerald/50 rounded-full py-1.5 px-4 bg-brand-charcoal-light">
             <span className="font-mono text-[9px] uppercase tracking-[0.2em] text-brand-emerald font-bold">
-              Out The Mud Collection
+              OTM Gear Collection
             </span>
           </div>
           <h2 className="font-display font-bold text-4xl md:text-6xl tracking-tight text-white leading-tight">
-            OTM Gear <span className="text-brand-emerald">Built Before Sunrise</span>
+            OTM Gear
           </h2>
           <p className="font-sans text-brand-sand/70 text-lg leading-relaxed max-w-xl">
-            For men who refuse to quit. High-performance apparel engineered for the relentless.
+            For those who refuse to quit. High-performance apparel engineered for the relentless.
           </p>
         </motion.div>
 
