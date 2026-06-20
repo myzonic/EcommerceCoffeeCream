@@ -11,7 +11,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
       {/* Background Visuals */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/assets/images/hero_coffee_dawn_1781457367197.jpg" 
+          src="/assets/images/hero_coffee_dawn_1781457367197.png" 
           alt="Morning Ritual" 
           className="w-full h-full object-cover"
         />
