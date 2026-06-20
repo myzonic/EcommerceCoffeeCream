@@ -31,11 +31,11 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             </span>
           </div>
           
-          <h1 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl tracking-tight text-white mb-6 leading-tight">
+          <h1 className="font-serif font-bold text-4xl sm:text-5xl md:text-6xl tracking-tight text-white mb-6 leading-tight uppercase tracking-wider">
             Built Before Sunrise<br />
             Rooted in FAMILY.<br />
             Fueled by purpose.<br />
-            <span className="text-brand-emerald italic">A SIP OF LEGACY IN EVERY CUP!!</span>
+            <span className="text-brand-emerald italic font-sans font-normal lowercase tracking-normal">A sip of legacy in every cup!!</span>
           </h1>
           
           <div className="mb-12"></div>
