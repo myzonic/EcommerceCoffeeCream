@@ -59,10 +59,10 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
           {/* Slogan pill (Desktop only) */}
           <div className="hidden lg:flex items-center space-x-2 bg-brand-beige/50 border border-brand-sand/50 rounded-full py-1 px-3.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-brand-emerald animate-pulse"></span>
-              <span className="font-mono text-[10px] uppercase tracking-wider text-brand-charcoal/75 font-medium">
-                SweetNaomiRae’s Coffee & More
-              </span>
+            <img src="/vhhc-logo.png" alt="VHHC" className="h-3 w-auto" />
+            <span className="font-mono text-[9px] uppercase tracking-wider text-brand-charcoal/75 font-medium">
+              SweetNaomiRae’s Coffee & More
+            </span>
           </div>
 
           {/* Right Controls */}
