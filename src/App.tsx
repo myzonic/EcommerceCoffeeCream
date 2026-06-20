@@ -267,7 +267,7 @@ export default function App() {
 
         {/* Signature credit lines */}
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-[#71717a] text-[10px] font-mono gap-4">
-          <p>© 2026 SweetNaomiRae’s. All rights reserved.</p>
+          <p>© 2026 SweetNaomiRae’s Coffee & More. All rights reserved. | A project of Verde Harvest Holdings Corp.</p>
           <div className="flex space-x-6">
             <span className="hover:text-[#ffffff] cursor-pointer">Sovereignty Protocols</span>
             <span className="hover:text-[#ffffff] cursor-pointer">Impact Reports</span>

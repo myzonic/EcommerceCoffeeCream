@@ -54,11 +54,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
             onClick={() => handleLinkClick('hero')} 
             className="flex items-center cursor-pointer group text-left"
           >
-            <img
-              src="/logo.png"
-              alt="SweetNaomiRae's Coffee & More"
-              className="h-16 md:h-20 w-auto object-contain"
-            />
+            <span className="text-brand-charcoal font-bold text-lg md:text-xl">SweetNaomiRae’s Coffee & More</span>
           </button>
 
           {/* Slogan pill (Desktop only) */}
@@ -201,7 +197,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
             {/* Bottom bar of overlay */}
             <div className="max-w-7xl mx-auto w-full border-t border-brand-gold/10 pt-6 mt-8 flex flex-col md:flex-row items-center justify-between z-10 text-brand-sand/55 text-xs font-mono">
-              <p>© 2026 SweetNaomiRae’s Coffee & More. All rights reserved.</p>
+              <p>© 2026 SweetNaomiRae’s Coffee & More. All rights reserved. | A project of Verde Harvest Holdings Corp.</p>
               <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#hero" onClick={() => handleLinkClick('hero')} className="hover:text-white transition-colors">The Anthem</a>
                 <a href="#flagship" onClick={() => handleLinkClick('flagship')} className="hover:text-white transition-colors">Roast Details</a>
