@@ -35,7 +35,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
             Built Before Sunrise<br />
             Rooted in FAMILY.<br />
             Fueled by purpose.<br />
-            <span className="text-brand-emerald italic font-sans font-normal lowercase tracking-normal">A sip of legacy in every cup!!</span>
+            <span className="text-brand-emerald italic font-sans font-bold text-3xl md:text-5xl tracking-normal mt-4 block">A sip of legacy in every cup!!</span>
           </h1>
           
           <div className="mb-12"></div>
