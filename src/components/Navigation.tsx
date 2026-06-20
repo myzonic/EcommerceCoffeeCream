@@ -52,8 +52,9 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
           {/* Logo / Brand Name */}
           <button 
             onClick={() => handleLinkClick('hero')} 
-            className="flex items-center cursor-pointer group text-left"
+            className="flex items-center cursor-pointer group text-left gap-2"
           >
+            <img src="/vhhc-logo.png" alt="VHHC" className="h-6 w-auto" />
             <span className="text-brand-charcoal font-bold text-lg md:text-xl">SweetNaomiRae’s Coffee & More</span>
           </button>
 
