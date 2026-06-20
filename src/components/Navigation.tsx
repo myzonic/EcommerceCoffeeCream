@@ -52,10 +52,10 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
           {/* Logo / Brand Name */}
           <button 
             onClick={() => handleLinkClick('hero')} 
-            className="flex items-center cursor-pointer group text-left gap-3"
+            className="flex items-center cursor-pointer group text-left gap-4"
           >
-            <img src="/vhhc-logo.png" alt="VHHC" className="h-12 md:h-16 w-auto" />
-            <span className="text-brand-charcoal font-bold text-lg md:text-xl">SweetNaomiRae’s Coffee & More</span>
+            <img src="/vhhc-logo.png" alt="VHHC" className="h-20 md:h-24 w-auto" />
+            <span className="text-brand-charcoal font-bold text-xl md:text-3xl">SweetNaomiRae’s Coffee & More</span>
           </button>
 
           {/* Slogan pill (Desktop only) */}
