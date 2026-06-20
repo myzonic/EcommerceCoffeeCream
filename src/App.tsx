@@ -18,7 +18,6 @@ import { PRODUCTS, TESTIMONIALS, VENTURES, IMPACT_MILESTONES } from './data';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
 import Merchandise from './components/Merchandise';
-import SignatureCollection from './components/SignatureCollection';
 import FamilyCollection from './components/FamilyCollection';
 import WomenCollection from './components/WomenCollection';
 import LittleLegends from './components/LittleLegends';
@@ -43,7 +42,7 @@ export default function App() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 500);
 
-      const sections = ['hero', 'merchandise', 'signature-collection', 'family-collection', 'womens-collection', 'little-legends', 'otm-gear', 'coffee-collection', 'ventures', 'impact'];
+      const sections = ['hero', 'merchandise', 'family-collection', 'womens-collection', 'little-legends', 'otm-gear', 'coffee-collection', 'ventures', 'impact'];
       const scrollPos = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -145,12 +144,6 @@ export default function App() {
 
         {/* MERCH COLLECTION – Built Before Sunrise */}
         <Merchandise
-          products={PRODUCTS}
-          onAddToCart={handleAddToCart}
-        />
-
-        {/* SIGNATURE COLLECTION (OTM – Out The Mud) */}
-        <SignatureCollection
           products={PRODUCTS}
           onAddToCart={handleAddToCart}
         />
