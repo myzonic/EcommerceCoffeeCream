@@ -22,7 +22,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'OTM Gear',
-    image: '/assets/images/OTM Performance Joggers.png'
+    image: '/assets/images/OTM Collection/OTM Performance Joggers.png'
   },
   {
     id: 'otm-triblend',
@@ -40,7 +40,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'OTM Gear',
-    image: '/assets/images/OTM Tri Blend Tee.png'
+    image: '/assets/images/OTM Collection/OTM Tri Blend Tee.png'
   },
   {
     id: 'otm-flex-shorts',
@@ -58,7 +58,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'OTM Gear',
-    image: '/assets/images/OTM Shorts.png'
+    image: '/assets/images/OTM Collection/OTM Shorts.png'
   },
   {
     id: 'otm-zip-hoodie',
@@ -76,7 +76,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'OTM Gear',
-    image: '/assets/images/OTM Zip Hoodie.png'
+    image: '/assets/images/OTM Collection/OTM Zip Hoodie.png'
   },
   {
     id: 'otm-perf-hoodie',
@@ -94,7 +94,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'OTM Gear',
-    image: '/assets/images/OTM Performance Hoodie.png'
+    image: '/assets/images/OTM Collection/OTM Performance Hoodie.png'
   },
   {
     id: 'naomi-leggings',
@@ -112,7 +112,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Signature Leggings - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Signature Leggings - Naomi Rae Collection.png'
   },
   {
     id: 'naomi-sculpt-shorts',
@@ -130,7 +130,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Sculpt Shorts - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Sculpt Shorts - Naomi Rae Collection.png'
   },
   {
     id: 'naomi-luxe-zip',
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Luxe Zip Hoodie - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Luxe Zip Hoodie - Naomi Rae Collection.png'
   },
   {
     id: 'naomi-perf-quarterzip',
@@ -166,7 +166,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Long sleeve performance shirt - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Long sleeve performance shirt - Naomi Rae Collection.png'
   },
   {
     id: 'naomi-relaxed-joggers',
@@ -184,7 +184,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: "/assets/images/Women's Jogger Set.png"
+    image: "/assets/images/Naomi Rae Collection/Women's Jogger Set.png"
   },
   {
     id: 'naomi-crop-tee',
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Crop tee - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Crop tee - Naomi Rae Collection.png'
   },
   {
     id: 'little-tee',
@@ -220,7 +220,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Little Legends Collection',
-    image: '/assets/images/Kid T shirt.png'
+    image: '/assets/images/Youth Collection/Kid T shirt.png'
   },
   {
     id: 'little-hoodie',
@@ -238,7 +238,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Little Legends Collection',
-    image: '/assets/images/Kid Hoodie.png'
+    image: '/assets/images/Youth Collection/Kid Hoodie.png'
   },
   {
     id: 'little-joggers',
