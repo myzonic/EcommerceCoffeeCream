@@ -8,7 +8,7 @@ interface LittleLegendsProps {
   onAddToCart: (product: Product, quantity: number, options?: { size?: string }) => void;
 }
 
-const LITTLE_LEGENDS_IDS = ['little-tee', 'little-hoodie', 'little-joggers', 'little-shorts'];
+const LITTLE_LEGENDS_IDS = ['little-tee', 'little-hoodie'];
 
 export default function LittleLegends({ products, onAddToCart }: LittleLegendsProps) {
   const littleItems = products.filter(p => LITTLE_LEGENDS_IDS.includes(p.id));

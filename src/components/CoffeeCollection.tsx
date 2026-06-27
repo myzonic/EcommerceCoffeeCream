@@ -8,7 +8,7 @@ interface CoffeeCollectionProps {
   onAddToCart: (product: Product, quantity: number, options?: { size?: string }) => void;
 }
 
-const COFFEE_IDS = ['pops-430', 'golden-blend', 'carbon-tumbler', 'sport-shaker', 'coffee-cup', 'coffee-sleeve'];
+const COFFEE_IDS = ['pops-430', 'golden-blend', 'carbon-tumbler', 'coffee-cup', 'coffee-sleeve'];
 
 export default function CoffeeCollection({ products, onAddToCart }: CoffeeCollectionProps) {
   const coffeeItems = products.filter(p => COFFEE_IDS.includes(p.id));

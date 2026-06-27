@@ -8,8 +8,8 @@ interface FamilyCollectionProps {
   onAddToCart: (product: Product, quantity: number, options?: { size?: string }) => void;
 }
 
-const ADULT_IDS = ['family-hoodie', 'family-hoodie-2', 'family-tee', 'family-joggers', 'family-dad-hat'];
-const YOUTH_IDS = ['little-tee', 'little-hoodie', 'little-joggers', 'little-shorts'];
+const ADULT_IDS = ['family-hoodie', 'family-hoodie-2', 'family-tee'];
+const YOUTH_IDS = ['little-tee', 'little-hoodie'];
 
 export default function FamilyCollection({ products, onAddToCart }: FamilyCollectionProps) {
   const adultItems = products.filter(p => ADULT_IDS.includes(p.id));

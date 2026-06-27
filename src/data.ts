@@ -241,42 +241,6 @@ export const PRODUCTS: Product[] = [
     image: '/assets/images/Youth Collection/Kid Hoodie.png'
   },
   {
-    id: 'little-joggers',
-    name: 'Youth Joggers',
-    subtitle: 'Little Legends Collection',
-    price: 35,
-    rating: 4.9,
-    reviewsCount: 20,
-    description: 'Lightweight, athletic-fit joggers with a minimal side logo. Designed for active kids with comfort and movement in mind.',
-    benefits: [
-      'Minimal side-leg logo',
-      'Breathable athletic fabric',
-      'Elastic waistband & cuffs',
-      'Little Legends Collection'
-    ],
-    category: 'apparel',
-    badge: 'Little Legends Collection',
-    image: '/assets/images/Youth Tee.png'
-  },
-  {
-    id: 'little-shorts',
-    name: 'Youth Athletic Shorts',
-    subtitle: 'Little Legends Collection',
-    price: 28,
-    rating: 4.9,
-    reviewsCount: 18,
-    description: 'Durable, quick-dry shorts for sports and play. Minimalist branding with an athletic cut.',
-    benefits: [
-      'Minimalist branding',
-      'Quick-dry performance fabric',
-      'Comfortable active cut',
-      'Little Legends Collection'
-    ],
-    category: 'apparel',
-    badge: 'Little Legends Collection',
-    image: '/assets/images/Youth Tee.png'
-  },
-  {
     id: 'family-hoodie',
     name: 'Premium Hoodie',
     subtitle: 'Family Collection',
@@ -330,43 +294,6 @@ export const PRODUCTS: Product[] = [
     badge: 'Family Collection',
     image: '/assets/images/Family Collection/Family Collection Set.png'
   },
-  {
-    id: 'family-joggers',
-    name: 'Men Joggers',
-    subtitle: 'Family Collection',
-    price: 75,
-    rating: 4.9,
-    reviewsCount: 34,
-    description: 'Premium tapered joggers for the coordinated family look. Technical stretch fabric with secure pockets. Built for movement and style.',
-    benefits: [
-      'Tapered athletic fit',
-      'Technical stretch fabric',
-      'Secure pockets & drawstring waist',
-      'Family Collection'
-    ],
-    category: 'apparel',
-    badge: 'Family Collection',
-    image: '/assets/images/Men Collection/Joggers Pant - Men Collection.png'
-  },
-  {
-    id: 'family-dad-hat',
-    name: 'Dad Hat',
-    subtitle: 'Family Collection',
-    price: 22,
-    rating: 4.7,
-    reviewsCount: 18,
-    description: 'Classic dad hat featuring the brand logo. Unstructured fit with a curved brim. The perfect finishing piece for the coordinated family look.',
-    benefits: [
-      'Unstructured classic fit',
-      'Curved brim',
-      'Embossed brand logo',
-      'Family Collection'
-    ],
-    category: 'apparel',
-    badge: 'Family Collection',
-    image: '/assets/images/Dad Hat.png'
-  },
-
   {
     id: 'men-joggers',
     name: 'Men Joggers',
@@ -459,7 +386,7 @@ export const PRODUCTS: Product[] = [
       { name: 'Organic Roasting Code', value: 'Slow double carbon-monitored', icon: 'Flame' },
       { name: 'Athletic Adaptogens', value: 'Subtle clean recovery profiles', icon: 'Zap' }
     ],
-    image: '/assets/images/pops_coffee_bag_1781457387033.jpg',
+    image: '/assets/images/pops_coffee_bag_1781457387033.png',
     category: 'coffee',
     badge: 'Coffee Collection'
   },
@@ -502,24 +429,6 @@ export const PRODUCTS: Product[] = [
     category: 'gear',
     badge: 'Coffee Collection',
     image: '/assets/images/Tumbler.png'
-  },
-  {
-    id: 'sport-shaker',
-    name: 'Magnetic Sport Shaker',
-    subtitle: 'Coffee Collection Essentials',
-    price: 42,
-    rating: 5.0,
-    reviewsCount: 147,
-    description: 'The ultimate athletic coffee shaking experience. Double-walled stainless steel with leak-proof ergonomic handle, magnetic latch closure, and internal steel mixing sphere.',
-    benefits: [
-      'Silent Heavy-Duty Agitation Grid',
-      'Leakproof Magnetic Lid Locking',
-      'Scratch-resistant Powder-coated Polish',
-      'Perfect for Iced Coffee & Post-Run Shakes'
-    ],
-    category: 'gear',
-    badge: 'Coffee Collection',
-    image: '/assets/images/thermal_sport_shaker_1781458205534.jpg'
   },
   {
     id: 'coffee-cup',

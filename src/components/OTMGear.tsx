@@ -8,7 +8,7 @@ interface OTMCearProps {
   onAddToCart: (product: Product, quantity: number, options?: { size?: string }) => void;
 }
 
-const OTM_IDS = ['otm-hoodie', 'otm-zip-hoodie', 'otm-perf-hoodie', 'otm-tee', 'otm-triblend', 'otm-joggers', 'otm-flex-shorts'];
+const OTM_IDS = ['otm-zip-hoodie', 'otm-perf-hoodie', 'otm-triblend', 'otm-joggers', 'otm-flex-shorts'];
 
 export default function OTMGear({ products, onAddToCart }: OTMCearProps) {
   const otmItems = products.filter(p => OTM_IDS.includes(p.id));

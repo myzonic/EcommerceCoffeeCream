@@ -49,7 +49,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
               <span>Explore The Roast</span>
             </button>
             <button 
-              onClick={() => onScrollToSection('merchandise')}
+              onClick={() => onScrollToSection('otm-gear')}
               className="flex items-center space-x-3 bg-white/10 backdrop-blur-md hover:bg-white/20 text-white px-8 py-4 rounded-full font-bold uppercase text-xs tracking-widest transition-all border border-white/10"
             >
               <span>View Gear</span>
@@ -61,7 +61,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
       {/* Decorative Slide-down Scroll Tip */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center space-y-2 z-20">
         <button 
-          onClick={() => onScrollToSection('little-legends')}
+          onClick={() => onScrollToSection('coffee-collection')}
           className="p-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-brand-emerald transition-colors duration-300 flex items-center justify-center cursor-pointer animate-bounce"
           aria-label="Scroll down"
         >

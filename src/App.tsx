@@ -10,25 +10,18 @@
 
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Sparkles, ArrowUp, Instagram, Twitter, Heart, ShieldCheck } from 'lucide-react';
+import { Sparkles, ArrowUp, Instagram, Twitter, ShieldCheck } from 'lucide-react';
 
 import { Product, CartItem } from './types';
-import { PRODUCTS, TESTIMONIALS, VENTURES, IMPACT_MILESTONES } from './data';
+import { PRODUCTS } from './data';
 
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
-import Merchandise from './components/Merchandise';
-import FamilyCollection from './components/FamilyCollection';
+import CoffeeCollection from './components/CoffeeCollection';
+import OTMGear from './components/OTMGear';
 import WomenCollection from './components/WomenCollection';
 import MenCollection from './components/MenCollection';
-import OTMGear from './components/OTMGear';
-import CoffeeCollection from './components/CoffeeCollection';
-import PortfolioGallery from './components/PortfolioGallery';
-import Services from './components/Services';
-import WhyChoose from './components/WhyChoose';
-import Testimonials from './components/Testimonials';
-import DonationImpact from './components/DonationImpact';
-import Newsletter from './components/Newsletter';
+import FamilyCollection from './components/FamilyCollection';
 import CartDrawer from './components/CartDrawer';
 
 export default function App() {
@@ -42,7 +35,7 @@ export default function App() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 500);
 
-      const sections = ['hero', 'merchandise', 'family-collection', 'womens-collection', 'men-collection', 'otm-gear', 'coffee-collection', 'ventures', 'impact'];
+      const sections = ['hero', 'coffee-collection', 'otm-gear', 'womens-collection', 'men-collection', 'family-collection', 'little-legends'];
       const scrollPos = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -136,18 +129,6 @@ export default function App() {
           <Hero onScrollToSection={handleScrollToSection} />
         </section>
 
-        {/* Brand Core why us section (Intro Story elements) */}
-        <WhyChoose />
-
-        {/* Asymmetrical Portfolio Visual Magazine Grid */}
-        <PortfolioGallery />
-
-        {/* MERCH COLLECTION – Built Before Sunrise */}
-        <Merchandise
-          products={PRODUCTS}
-          onAddToCart={handleAddToCart}
-        />
-
         {/* FAMILY COLLECTION */}
         <FamilyCollection
           products={PRODUCTS}
@@ -177,18 +158,6 @@ export default function App() {
           products={PRODUCTS}
           onAddToCart={handleAddToCart}
         />
-
-        {/* Future Offerings & Services */}
-        <Services ventures={VENTURES} />
-
-        {/* Endorsements / Customer Reviews Slider */}
-        <Testimonials testimonials={TESTIMONIALS} />
-
-        {/* Financial Contribution Calculator / Ecological Impact pledge */}
-        <DonationImpact milestones={IMPACT_MILESTONES} />
-
-        {/* Exclusive newsletter subscription dispatch waitlist */}
-        <Newsletter />
 
       </main>
 
@@ -222,9 +191,9 @@ export default function App() {
             <h4 className="font-mono text-[9px] uppercase tracking-widest text-[#71717a] font-bold">The Experience</h4>
             <div className="flex flex-col space-y-2 text-xs text-brand-sand/70">
               <button onClick={() => handleScrollToSection('hero')} className="hover:text-brand-emerald text-left cursor-pointer hover:underline">The Anthem</button>
-              <button onClick={() => handleScrollToSection('flagship')} className="hover:text-brand-emerald text-left cursor-pointer hover:underline">POPS Roast</button>
-              <button onClick={() => handleScrollToSection('merchandise')} className="hover:text-brand-emerald text-left cursor-pointer hover:underline">Apparel Drops</button>
-              <button onClick={() => handleScrollToSection('ventures')} className="hover:text-brand-emerald text-left cursor-pointer hover:underline">Horizon Projects</button>
+              <button onClick={() => handleScrollToSection('coffee-collection')} className="hover:text-brand-emerald text-left cursor-pointer hover:underline">Coffee Collection</button>
+              <button onClick={() => handleScrollToSection('otm-gear')} className="hover:text-brand-emerald text-left cursor-pointer hover:underline">OTM Gear</button>
+              <button onClick={() => handleScrollToSection('womens-collection')} className="hover:text-brand-emerald text-left cursor-pointer hover:underline">Naomi Rae</button>
             </div>
           </div>
 
@@ -232,10 +201,10 @@ export default function App() {
           <div className="space-y-3.5">
             <h4 className="font-mono text-[9px] uppercase tracking-widest text-[#71717a] font-bold">Verification</h4>
             <div className="flex flex-col space-y-2 text-xs text-brand-sand/70">
-              <span className="hover:text-white cursor-help">Lab Certified Adaptogens</span>
-              <span className="hover:text-white cursor-help">Double carbon emission maps</span>
-              <span className="hover:text-white cursor-help">Direct Colombian Fair Premium</span>
-              <span className="hover:text-white cursor-help">Alliance Standards</span>
+              <span className="hover:text-white cursor-help">Section-wise sorted catalog</span>
+              <span className="hover:text-white cursor-help">Only curated product images</span>
+              <span className="hover:text-white cursor-help">Removed unused extras</span>
+              <span className="hover:text-white cursor-help">Direct asset mapping</span>
             </div>
           </div>
 
@@ -268,8 +237,8 @@ export default function App() {
             </span>
           </p>
           <div className="flex space-x-6">
-            <span className="hover:text-[#ffffff] cursor-pointer">Sovereignty Protocols</span>
-            <span className="hover:text-[#ffffff] cursor-pointer">Impact Reports</span>
+            <span className="hover:text-[#ffffff] cursor-pointer">Coffee Collection</span>
+            <span className="hover:text-[#ffffff] cursor-pointer">Apparel Drops</span>
           </div>
         </div>
       </footer>
