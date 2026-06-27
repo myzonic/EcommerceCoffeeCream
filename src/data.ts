@@ -130,7 +130,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Naomi Rae Collection/Sculpt Shorts - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Sculpt Shorts -  Naomi Rae Collection.png'
   },
   {
     id: 'naomi-luxe-zip',
@@ -148,7 +148,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Naomi Rae Collection/Luxe Zip Hoodie - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Luxe Zip Hoodie  -  Naomi Rae Collection.png'
   },
   {
     id: 'naomi-perf-quarterzip',
@@ -166,7 +166,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Naomi Rae Collection/Long sleeve performance shirt - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Long sleeve performance shirt  -  Naomi Rae Collection.png'
   },
   {
     id: 'naomi-relaxed-joggers',
@@ -202,7 +202,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: '/assets/images/Naomi Rae Collection/Crop tee - Naomi Rae Collection.png'
+    image: '/assets/images/Naomi Rae Collection/Crop tee  -  Naomi Rae Collection.png'
   },
   {
     id: 'little-tee',
