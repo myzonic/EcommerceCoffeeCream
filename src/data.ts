@@ -276,6 +276,96 @@ export const PRODUCTS: Product[] = [
     badge: 'Little Legends Collection',
     image: '/assets/images/Youth Tee.png'
   },
+  {
+    id: 'family-hoodie',
+    name: 'Premium Hoodie',
+    subtitle: 'Family Collection',
+    price: 78,
+    rating: 4.9,
+    reviewsCount: 31,
+    description: 'Premium heavyweight hoodie featuring the brand logo on the front. Coordinated family fit for parents. Built for comfort and everyday wear.',
+    benefits: [
+      'Heavyweight premium fleece',
+      'Front brand logo',
+      'Ribbed cuffs & hem',
+      'Family Collection'
+    ],
+    category: 'apparel',
+    badge: 'Family Collection',
+    image: '/assets/images/Family Collection/Dad Hoodie.png'
+  },
+  {
+    id: 'family-hoodie-2',
+    name: 'Matching Hoodie',
+    subtitle: 'Family Collection',
+    price: 78,
+    rating: 4.9,
+    reviewsCount: 27,
+    description: 'Coordinating hoodie with brand logo. Part of our matching family collection. Same premium quality, designed for family bonding.',
+    benefits: [
+      'Coordinating family design',
+      'Premium heavyweight fleece',
+      'Brand logo front & center',
+      'Family Collection'
+    ],
+    category: 'apparel',
+    badge: 'Family Collection',
+    image: '/assets/images/Family Collection/Dad hoodie image 2.png'
+  },
+  {
+    id: 'family-tee',
+    name: 'Performance T-Shirt',
+    subtitle: 'Family Collection',
+    price: 32,
+    rating: 4.8,
+    reviewsCount: 44,
+    description: 'Breathable performance tee for the whole family. Moisture-wicking fabric with a clean athletic fit. Perfect for active family days.',
+    benefits: [
+      'Breathable performance fabric',
+      'Moisture-wicking technology',
+      'Clean athletic fit',
+      'Family Collection'
+    ],
+    category: 'apparel',
+    badge: 'Family Collection',
+    image: '/assets/images/Family Collection/Family Collection Set.png'
+  },
+  {
+    id: 'family-joggers',
+    name: 'Men Joggers',
+    subtitle: 'Family Collection',
+    price: 75,
+    rating: 4.9,
+    reviewsCount: 34,
+    description: 'Premium tapered joggers for the coordinated family look. Technical stretch fabric with secure pockets. Built for movement and style.',
+    benefits: [
+      'Tapered athletic fit',
+      'Technical stretch fabric',
+      'Secure pockets & drawstring waist',
+      'Family Collection'
+    ],
+    category: 'apparel',
+    badge: 'Family Collection',
+    image: '/assets/images/Men Collection/Joggers Pant - Men Collection.png'
+  },
+  {
+    id: 'family-dad-hat',
+    name: 'Dad Hat',
+    subtitle: 'Family Collection',
+    price: 22,
+    rating: 4.7,
+    reviewsCount: 18,
+    description: 'Classic dad hat featuring the brand logo. Unstructured fit with a curved brim. The perfect finishing piece for the coordinated family look.',
+    benefits: [
+      'Unstructured classic fit',
+      'Curved brim',
+      'Embossed brand logo',
+      'Family Collection'
+    ],
+    category: 'apparel',
+    badge: 'Family Collection',
+    image: '/assets/images/Dad Hat.png'
+  },
 
   {
     id: 'men-joggers',

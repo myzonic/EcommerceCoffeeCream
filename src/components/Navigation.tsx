@@ -24,7 +24,6 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
     { id: 'signature-collection', label: 'Signature Collection', info: 'OTM – Out The Mud', icon: Diamond },
     { id: 'family-collection', label: 'Family Collection', info: 'Built Before Sunrise Family', icon: HeartHandshake },
     { id: 'womens-collection', label: 'Naomi Rae Collection', info: 'Strong. Graceful. Unstoppable.', icon: Venus },
-    { id: 'little-legends', label: 'Little Legends', info: 'For the next generation.', icon: Heart },
     { id: 'men-collection', label: 'Men Collection', info: 'Built Before Sunrise Men', icon: Shirt },
     { id: 'otm-gear', label: 'OTM Gear', info: 'Out The Mud Collection', icon: Sparkles },
     { id: 'coffee-collection', label: 'Coffee Collection', info: 'A SIP OF LEGACY IN EVERY CUP!!', icon: Coffee },
