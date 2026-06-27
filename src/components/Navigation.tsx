@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { X, ShoppingBag, ArrowRight, Sparkles, HeartHandshake, Venus, Coffee, Shirt, Baby } from 'lucide-react';
+import { X, ShoppingBag, ArrowRight, Sparkles, HeartHandshake, Venus, Coffee, Shirt } from 'lucide-react';
 import { CartItem } from '../types';
 
 interface NavigationProps {
@@ -20,12 +20,14 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
 
   const navItems = [
     { id: 'hero', label: 'The Anthem', info: 'Watch the Story Unfold', icon: Sparkles },
+    { id: 'merchandise', label: 'Merch Collection', info: 'Built Before Sunrise', icon: Sparkles },
     { id: 'coffee-collection', label: 'Coffee Collection', info: 'A SIP OF LEGACY IN EVERY CUP!!', icon: Coffee },
     { id: 'otm-gear', label: 'OTM Gear', info: 'Out The Mud Collection', icon: Sparkles },
     { id: 'womens-collection', label: 'Naomi Rae Collection', info: 'Strong. Graceful. Unstoppable.', icon: Venus },
     { id: 'men-collection', label: 'Men Collection', info: 'Built Before Sunrise Men', icon: Shirt },
     { id: 'family-collection', label: 'Family Collection', info: 'Built Before Sunrise Family', icon: HeartHandshake },
-    { id: 'little-legends', label: 'Little Legends', info: 'For the next generation', icon: Baby },
+    { id: 'ventures', label: 'Ventures', info: 'Future Wellness & Spaces', icon: Sparkles },
+    { id: 'impact', label: 'Donation & Impact', info: 'Building Everyday Legends', icon: Sparkles },
   ];
 
   const cartCount = cart.reduce((acc, item) => acc + item.quantity, 0);
@@ -196,8 +198,9 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
             {/* Bottom bar of overlay */}
             <div className="max-w-7xl mx-auto w-full border-t border-brand-gold/10 pt-6 mt-8 flex flex-col md:flex-row items-center justify-between z-10 text-brand-sand/55 text-xs font-mono">
               <p>© 2026 SweetNaomiRae’s Coffee & More. All rights reserved. | A project of Verde Harvest Holdings Corp.</p>
-            <div className="flex space-x-6 mt-4 md:mt-0">
+              <div className="flex space-x-6 mt-4 md:mt-0">
                 <a href="#hero" onClick={() => handleLinkClick('hero')} className="hover:text-white transition-colors">The Anthem</a>
+                <a href="#merchandise" onClick={() => handleLinkClick('merchandise')} className="hover:text-white transition-colors">Merch Collection</a>
                 <a href="#coffee-collection" onClick={() => handleLinkClick('coffee-collection')} className="hover:text-white transition-colors">Roast Details</a>
                 <a href="#otm-gear" onClick={() => handleLinkClick('otm-gear')} className="hover:text-white transition-colors">Shop All</a>
               </div>

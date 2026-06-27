@@ -49,7 +49,7 @@ export default function Hero({ onScrollToSection }: HeroProps) {
               <span>Explore The Roast</span>
             </button>
             <button 
-              onClick={() => onScrollToSection('otm-gear')}
+              onClick={() => onScrollToSection('merchandise')}
               className="flex items-center space-x-3 bg-white/10 backdrop-blur-md hover:bg-white/20 text-white px-8 py-4 rounded-full font-bold uppercase text-xs tracking-widest transition-all border border-white/10"
             >
               <span>View Gear</span>

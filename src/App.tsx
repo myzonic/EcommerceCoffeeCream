@@ -13,15 +13,22 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, ArrowUp, Instagram, Twitter, ShieldCheck } from 'lucide-react';
 
 import { Product, CartItem } from './types';
-import { PRODUCTS } from './data';
+import { PRODUCTS, TESTIMONIALS, VENTURES, IMPACT_MILESTONES } from './data';
 
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
+import Merchandise from './components/Merchandise';
+import WhyChoose from './components/WhyChoose';
+import PortfolioGallery from './components/PortfolioGallery';
 import CoffeeCollection from './components/CoffeeCollection';
 import OTMGear from './components/OTMGear';
 import WomenCollection from './components/WomenCollection';
 import MenCollection from './components/MenCollection';
 import FamilyCollection from './components/FamilyCollection';
+import Services from './components/Services';
+import Testimonials from './components/Testimonials';
+import DonationImpact from './components/DonationImpact';
+import Newsletter from './components/Newsletter';
 import CartDrawer from './components/CartDrawer';
 
 export default function App() {
@@ -35,7 +42,7 @@ export default function App() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 500);
 
-      const sections = ['hero', 'coffee-collection', 'otm-gear', 'womens-collection', 'men-collection', 'family-collection', 'little-legends'];
+      const sections = ['hero', 'merchandise', 'family-collection', 'womens-collection', 'men-collection', 'otm-gear', 'coffee-collection', 'ventures', 'impact'];
       const scrollPos = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -129,6 +136,18 @@ export default function App() {
           <Hero onScrollToSection={handleScrollToSection} />
         </section>
 
+        {/* Brand Core why us section (Intro Story elements) */}
+        <WhyChoose />
+
+        {/* Asymmetrical Portfolio Visual Magazine Grid */}
+        <PortfolioGallery />
+
+        {/* MERCH COLLECTION – Built Before Sunrise */}
+        <Merchandise
+          products={PRODUCTS}
+          onAddToCart={handleAddToCart}
+        />
+
         {/* FAMILY COLLECTION */}
         <FamilyCollection
           products={PRODUCTS}
@@ -158,6 +177,18 @@ export default function App() {
           products={PRODUCTS}
           onAddToCart={handleAddToCart}
         />
+
+        {/* Future Offerings & Services */}
+        <Services ventures={VENTURES} />
+
+        {/* Endorsements / Customer Reviews Slider */}
+        <Testimonials testimonials={TESTIMONIALS} />
+
+        {/* Financial Contribution Calculator / Ecological Impact pledge */}
+        <DonationImpact milestones={IMPACT_MILESTONES} />
+
+        {/* Exclusive newsletter subscription dispatch waitlist */}
+        <Newsletter />
 
       </main>
 
