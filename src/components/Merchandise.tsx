@@ -16,12 +16,6 @@ export default function Merchandise({ products, onAddToCart }: MerchandiseProps)
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-brand-sand/50 to-transparent" />
 
       <div className="max-w-7xl mx-auto">
-        <div className="mb-12 text-center md:text-left">
-          <h2 className="font-display font-bold text-4xl md:text-5xl tracking-tight text-brand-charcoal">
-            Built Before Sunrise <span className="text-brand-emerald">Collection</span>
-          </h2>
-        </div>
-
         <motion.div
           initial="hidden"
           whileInView="visible"
