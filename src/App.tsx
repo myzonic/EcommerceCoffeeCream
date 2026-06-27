@@ -21,6 +21,7 @@ import Merchandise from './components/Merchandise';
 import FamilyCollection from './components/FamilyCollection';
 import WomenCollection from './components/WomenCollection';
 import LittleLegends from './components/LittleLegends';
+import MenCollection from './components/MenCollection';
 import OTMGear from './components/OTMGear';
 import CoffeeCollection from './components/CoffeeCollection';
 import PortfolioGallery from './components/PortfolioGallery';
@@ -42,7 +43,7 @@ export default function App() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 500);
 
-      const sections = ['hero', 'merchandise', 'family-collection', 'womens-collection', 'little-legends', 'otm-gear', 'coffee-collection', 'ventures', 'impact'];
+      const sections = ['hero', 'merchandise', 'family-collection', 'womens-collection', 'little-legends', 'men-collection', 'otm-gear', 'coffee-collection', 'ventures', 'impact'];
       const scrollPos = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -162,6 +163,12 @@ export default function App() {
 
         {/* LITTLE LEGENDS */}
         <LittleLegends
+          products={PRODUCTS}
+          onAddToCart={handleAddToCart}
+        />
+
+        {/* MEN COLLECTION */}
+        <MenCollection
           products={PRODUCTS}
           onAddToCart={handleAddToCart}
         />

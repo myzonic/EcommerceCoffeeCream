@@ -5,7 +5,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, ShoppingBag, ArrowRight, Sparkles, Trophy, Diamond, HeartHandshake, Venus, Coffee, Heart } from 'lucide-react';
+import { Menu, X, ShoppingBag, ArrowRight, Sparkles, Trophy, Diamond, HeartHandshake, Venus, Coffee, Heart, Shirt } from 'lucide-react';
 import { CartItem } from '../types';
 
 interface NavigationProps {
@@ -25,6 +25,7 @@ export default function Navigation({ cart, onOpenCart, activeSection, onNavigate
     { id: 'family-collection', label: 'Family Collection', info: 'Built Before Sunrise Family', icon: HeartHandshake },
     { id: 'womens-collection', label: 'Naomi Rae Collection', info: 'Strong. Graceful. Unstoppable.', icon: Venus },
     { id: 'little-legends', label: 'Little Legends', info: 'For the next generation.', icon: Heart },
+    { id: 'men-collection', label: 'Men Collection', info: 'Built Before Sunrise Men', icon: Shirt },
     { id: 'otm-gear', label: 'OTM Gear', info: 'Out The Mud Collection', icon: Sparkles },
     { id: 'coffee-collection', label: 'Coffee Collection', info: 'A SIP OF LEGACY IN EVERY CUP!!', icon: Coffee },
     { id: 'ventures', label: 'Ventures', info: 'Future Wellness & Spaces', icon: Sparkles },

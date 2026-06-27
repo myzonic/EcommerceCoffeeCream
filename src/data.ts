@@ -278,6 +278,79 @@ export const PRODUCTS: Product[] = [
   },
 
   {
+    id: 'men-joggers',
+    name: 'Men Joggers',
+    subtitle: 'Men Collection',
+    price: 75,
+    rating: 4.9,
+    reviewsCount: 34,
+    description: 'Premium joggers designed for performance and everyday wear. Features a tapered fit, technical fabric, and secure pockets. Built for the modern man on the move.',
+    benefits: [
+      'Tapered athletic fit with ankle zip',
+      'Technical stretch performance fabric',
+      'Secure zip pockets & drawstring waist',
+      'Men Collection'
+    ],
+    category: 'apparel',
+    badge: 'Men Collection',
+    image: '/assets/images/Men Collection/Joggers Pant - Men Collection.png'
+  },
+  {
+    id: 'men-triblend',
+    name: 'Men Tri-Blend Tee',
+    subtitle: 'Men Collection',
+    price: 35,
+    rating: 5.0,
+    reviewsCount: 56,
+    description: 'Ultra-soft tri-blend crew neck tee with a modern athletic fit. Breathable, durable, and designed for training, recovery, and everyday lifestyle wear.',
+    benefits: [
+      'Ultra-Soft Tri-Blend Jersey Fabric',
+      'Modern Athletic Crew Neck Fit',
+      'Breathable & Moisture-Wicking',
+      'Men Collection'
+    ],
+    category: 'apparel',
+    badge: 'Men Collection',
+    image: '/assets/images/Men Collection/Tri blend T Shirt - Men Collection.png'
+  },
+  {
+    id: 'men-hoodie',
+    name: 'Men Hoodie',
+    subtitle: 'Men Collection',
+    price: 80,
+    rating: 4.9,
+    reviewsCount: 28,
+    description: 'Heavyweight fleece hoodie engineered for warmth and mobility. Features a relaxed fit, ribbed cuffs, and a signature front logo. The ultimate cold-weather layer.',
+    benefits: [
+      'Heavyweight Premium Fleece',
+      'Relaxed Fit with Ribbed Cuffs & Hem',
+      'Signature Front Logo & Adjustable Hood',
+      'Men Collection'
+    ],
+    category: 'apparel',
+    badge: 'Men Collection',
+    image: '/assets/images/Men Collection/Hoodie -  Men Collection.png'
+  },
+  {
+    id: 'men-tee',
+    name: 'Men Tee',
+    subtitle: 'Men Collection',
+    price: 28,
+    rating: 4.8,
+    reviewsCount: 42,
+    description: 'Essential everyday tee crafted from premium cotton. Clean, minimalist design with a comfortable athletic cut. Perfect for layering or wearing solo.',
+    benefits: [
+      'Premium Cotton Jersey Fabric',
+      'Athletic Cut with Clean Finish',
+      'Minimalist Branding',
+      'Men Collection'
+    ],
+    category: 'apparel',
+    badge: 'Men Collection',
+    image: '/assets/images/Men Collection/T shirt - Men Collection.png'
+  },
+
+  {
     id: 'pops-430',
     name: "POPS 4:30AM",
     subtitle: 'The Legend Fuel Dark Roast',
