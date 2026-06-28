@@ -184,7 +184,7 @@ export const PRODUCTS: Product[] = [
     ],
     category: 'apparel',
     badge: 'Naomi Rae Collection',
-    image: "/assets/images/Naomi Rae Collection/Women's Jogger Set.png"
+    image: '/assets/images/Naomi Rae Collection/Relaxed Joggers Pant.png'
   },
   {
     id: 'naomi-crop-tee',
