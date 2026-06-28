@@ -314,7 +314,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'family-tee',
-    name: 'Performance T-Shirt',
+    name: 'Family Set',
     subtitle: 'Family Collection',
     price: 32,
     rating: 4.8,
