@@ -205,6 +205,24 @@ export const PRODUCTS: Product[] = [
     image: '/assets/images/Naomi Rae Collection/Crop tee  -  Naomi Rae Collection.png'
   },
   {
+    id: 'naomi-crop-hoodie',
+    name: 'Crop Hoodie',
+    subtitle: 'Naomi Rae Collection',
+    price: 56,
+    rating: 4.9,
+    reviewsCount: 20,
+    description: 'Cropped hoodie with elegant Naomi Rae branding. Designed for training and lifestyle. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Soft cotton blend fleece',
+      'Cropped athletic fit',
+      'Elegant Naomi Rae branding',
+      'Naomi Rae Collection'
+    ],
+    image: '/assets/images/Naomi Rae Collection/Crop Hoodie  -  Naomi Rae Collection.png',
+    category: 'apparel',
+    badge: 'Naomi Rae Collection'
+  },
+  {
     id: 'little-tee',
     name: 'Youth Tee',
     subtitle: 'Little Legends Collection',

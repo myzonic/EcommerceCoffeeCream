@@ -8,7 +8,7 @@ interface WomenCollectionProps {
   onAddToCart: (product: Product, quantity: number, options?: { size?: string }) => void;
 }
 
-const NAOMI_IDS = ['naomi-leggings', 'naomi-sculpt-shorts', 'naomi-luxe-zip', 'naomi-perf-quarterzip', 'naomi-relaxed-joggers', 'naomi-crop-tee'];
+const NAOMI_IDS = ['naomi-leggings', 'naomi-sculpt-shorts', 'naomi-luxe-zip', 'naomi-perf-quarterzip', 'naomi-relaxed-joggers', 'naomi-crop-tee', 'naomi-crop-hoodie'];
 
 export default function WomenCollection({ products, onAddToCart }: WomenCollectionProps) {
   const naomiProducts = products.filter(p => NAOMI_IDS.includes(p.id));
