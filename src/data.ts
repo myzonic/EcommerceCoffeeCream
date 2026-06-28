@@ -206,7 +206,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'little-tee',
-    name: 'Kids Logo Tee',
+    name: 'Youth Tee',
     subtitle: 'Little Legends Collection',
     price: 24,
     rating: 5.0,
@@ -224,7 +224,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'little-hoodie',
-    name: 'Kids Hoodie',
+    name: 'Youth Hoodie',
     subtitle: 'Little Legends Collection',
     price: 45,
     rating: 5.0,
