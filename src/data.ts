@@ -241,6 +241,42 @@ export const PRODUCTS: Product[] = [
     image: '/assets/images/Youth Collection/Kid Hoodie.png'
   },
   {
+    id: 'youth-hat',
+    name: 'Youth Dad Hat',
+    subtitle: 'Little Legends Collection',
+    price: 22,
+    rating: 4.8,
+    reviewsCount: 15,
+    description: 'Youth dad hat featuring embroidered brand logo. Adjustable snapback closure for a perfect fit. Part of the matching family collection for the next generation.',
+    benefits: [
+      'Premium cotton twill construction',
+      'Embroidered brand logo front',
+      'Adjustable snapback closure',
+      'Little Legends Collection'
+    ],
+    image: '/assets/images/Youth Collection/Youth Dad Hat.png',
+    category: 'apparel',
+    badge: 'Little Legends Collection'
+  },
+  {
+    id: 'youth-shorts',
+    name: 'Youth Athletic Shorts',
+    subtitle: 'Little Legends Collection',
+    price: 28,
+    rating: 4.8,
+    reviewsCount: 18,
+    description: 'Youth athletic shorts built for active kids. Lightweight, breathable, and quick-drying performance fabric. Perfect for sports, play, and everyday wear.',
+    benefits: [
+      'Lightweight quick-dry fabric',
+      'Elastic waistband with drawstring',
+      'Breathable athletic design',
+      'Little Legends Collection'
+    ],
+    image: '/assets/images/Youth Collection/Youth Athletic Shorts.png',
+    category: 'apparel',
+    badge: 'Little Legends Collection'
+  },
+  {
     id: 'family-hoodie',
     name: 'Premium Hoodie',
     subtitle: 'Family Collection',

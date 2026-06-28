@@ -9,7 +9,7 @@ interface FamilyCollectionProps {
 }
 
 const ADULT_IDS = ['family-hoodie', 'family-hoodie-2', 'family-tee'];
-const YOUTH_IDS = ['little-tee', 'little-hoodie'];
+const YOUTH_IDS = ['little-tee', 'little-hoodie', 'youth-hat', 'youth-shorts'];
 
 export default function FamilyCollection({ products, onAddToCart }: FamilyCollectionProps) {
   const adultItems = products.filter(p => ADULT_IDS.includes(p.id));
