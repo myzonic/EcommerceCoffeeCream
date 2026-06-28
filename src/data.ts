@@ -241,6 +241,150 @@ export const PRODUCTS: Product[] = [
     badge: 'Naomi Rae Collection'
   },
   {
+    id: 'womens-leggings',
+    name: 'Women Collection Leggings',
+    subtitle: "Women's Collection",
+    price: 54,
+    rating: 4.9,
+    reviewsCount: 35,
+    description: 'High-waisted performance leggings designed for training and everyday wear. Premium fabric with a comfortable compression fit.',
+    benefits: [
+      'High-waisted compression fit',
+      'Premium performance fabric',
+      'Squat-proof design',
+      "Women's Collection"
+    ],
+    image: '/assets/images/Women Collection/Women Collection Leggings.png',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-crop-top',
+    name: 'Crop Top',
+    subtitle: "Women's Collection",
+    price: 32,
+    rating: 4.8,
+    reviewsCount: 28,
+    description: 'Breathable crop top for training and lifestyle. Modern athletic cut with a clean, minimal design.',
+    benefits: [
+      'Breathable performance fabric',
+      'Modern athletic crop fit',
+      'Clean minimal design',
+      "Women's Collection"
+    ],
+    image: '/assets/images/Women Collection/Crop Top.png',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-crop-hoodie',
+    name: 'Crop Hoodie',
+    subtitle: "Women's Collection",
+    price: 48,
+    rating: 4.8,
+    reviewsCount: 22,
+    description: 'Cropped hoodie with a relaxed fit. Soft fleece fabric perfect for layering over training gear or casual wear.',
+    benefits: [
+      'Soft cotton blend fleece',
+      'Cropped relaxed fit',
+      'Perfect for layering',
+      "Women's Collection"
+    ],
+    image: '/assets/images/Women Collection/Crop Hoodie.png',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-joggers',
+    name: 'Women Joggers',
+    subtitle: "Women's Collection",
+    price: 62,
+    rating: 4.9,
+    reviewsCount: 31,
+    description: 'Premium joggers with a tapered athletic fit. Technical fabric with secure pockets and adjustable waistband.',
+    benefits: [
+      'Tapered athletic fit',
+      'Technical stretch fabric',
+      'Secure zip pockets',
+      "Women's Collection"
+    ],
+    image: '/assets/images/Women Collection/Jogger Pant Women.png',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-weekend-hoodie',
+    name: 'Oversized Weekend Hoodie',
+    subtitle: "Women's Collection",
+    price: 62,
+    rating: 4.9,
+    reviewsCount: 24,
+    description: 'Oversized relaxed fit hoodie in soft fleece. The ultimate weekend comfort piece for relaxing or light training.',
+    benefits: [
+      'Soft fleece fabric',
+      'Relaxed oversized fit',
+      'Perfect weekend layer',
+      "Women's Collection"
+    ],
+    image: '/assets/images/Women Collection/Oversized Weekend Hoodie.png',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-quarterzip',
+    name: 'Quarter-Zip Performance Top',
+    subtitle: "Women's Collection",
+    price: 42,
+    rating: 4.9,
+    reviewsCount: 27,
+    description: 'Lightweight quarter-zip performance top with thumb holes. Designed for gym and casual wear. Moisture-wicking and breathable.',
+    benefits: [
+      'Lightweight performance fabric',
+      'Thumb holes for sleeve coverage',
+      'Quarter-zip front',
+      "Women's Collection"
+    ],
+    image: '/assets/images/Women Collection/Quarter-Zip Performance Top.png',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-tank',
+    name: 'Tank',
+    subtitle: "Women's Collection",
+    price: 28,
+    rating: 4.7,
+    reviewsCount: 33,
+    description: 'Lightweight racerback tank top. Perfect for training, running, and warm weather. Breathable and comfortable.',
+    benefits: [
+      'Lightweight performance fabric',
+      'Racerback design for mobility',
+      'Breathable and comfortable',
+      "Women's Collection"
+    ],
+    image: '/assets/images/Women Collection/Tank.png',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
+    id: 'womens-jogger-set',
+    name: "Women's Jogger Set",
+    subtitle: "Women's Collection",
+    price: 88,
+    rating: 4.9,
+    reviewsCount: 19,
+    description: 'Premium jogger set including matching joggers and zip-up jacket. Luxurious athletic wear for a coordinated look.',
+    benefits: [
+      'Premium joggers + zip-up jacket',
+      'Matching two-piece set',
+      'Comfortable athletic fit',
+      "Women's Collection"
+    ],
+    image: '/assets/images/Women Collection/Women\'s Jogger Set.png',
+    category: 'apparel',
+    badge: "Women's Collection"
+  },
+  {
     id: 'little-tee',
     name: 'Youth Tee',
     subtitle: 'Little Legends Collection',

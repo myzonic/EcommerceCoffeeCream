@@ -25,6 +25,7 @@ import OTMGear from './components/OTMGear';
 import WomenCollection from './components/WomenCollection';
 import MenCollection from './components/MenCollection';
 import FamilyCollection from './components/FamilyCollection';
+import WomenSection from './components/WomenSection';
 import Services from './components/Services';
 import Testimonials from './components/Testimonials';
 import DonationImpact from './components/DonationImpact';
@@ -42,7 +43,7 @@ export default function App() {
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 500);
 
-      const sections = ['hero', 'merchandise', 'family-collection', 'womens-collection', 'men-collection', 'otm-gear', 'coffee-collection', 'ventures', 'impact'];
+      const sections = ['hero', 'merchandise', 'family-collection', 'womens-collection', 'women-section', 'men-collection', 'otm-gear', 'coffee-collection', 'ventures', 'impact'];
       const scrollPos = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -162,6 +163,12 @@ export default function App() {
 
         {/* MEN COLLECTION */}
         <MenCollection
+          products={PRODUCTS}
+          onAddToCart={handleAddToCart}
+        />
+
+        {/* WOMEN'S COLLECTION */}
+        <WomenSection
           products={PRODUCTS}
           onAddToCart={handleAddToCart}
         />
