@@ -223,6 +223,24 @@ export const PRODUCTS: Product[] = [
     badge: 'Naomi Rae Collection'
   },
   {
+    id: 'naomi-perf-hoodie',
+    name: 'Performance Hoodie',
+    subtitle: 'Naomi Rae Collection',
+    price: 78,
+    rating: 4.9,
+    reviewsCount: 24,
+    description: 'Streamlined performance hoodie engineered for training and recovery. Premium fabric with elegant Naomi Rae branding. Strong. Graceful. Unstoppable.',
+    benefits: [
+      'Streamlined athletic fit',
+      'Premium performance fleece',
+      'Elegant Naomi Rae branding',
+      'Naomi Rae Collection'
+    ],
+    image: '/assets/images/Naomi Rae Collection/Performance Hoodie - Naomi Rae Collection.png',
+    category: 'apparel',
+    badge: 'Naomi Rae Collection'
+  },
+  {
     id: 'little-tee',
     name: 'Youth Tee',
     subtitle: 'Little Legends Collection',
